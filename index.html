@@ -11,57 +11,37 @@
 </head>
 <body>
 
+  <!-- HEADER -->
   <!-- LOADER -->
   <div id="map-loader">
     <div class="loader-content">
-      <div class="loader-logo">
-        <svg viewBox="0 0 48 48" width="48" height="48">
-          <circle cx="24" cy="24" r="20" fill="none" stroke="var(--accent)" stroke-width="1.5" opacity="0.2"/>
-          <circle cx="24" cy="24" r="12" fill="none" stroke="var(--accent)" stroke-width="1.5" opacity="0.4" stroke-dasharray="4 3"/>
-          <circle cx="24" cy="24" r="4" fill="var(--accent)" opacity="0.8"/>
-          <path d="M24 4 L24 10 M24 38 L24 44 M4 24 L10 24 M38 24 L44 24" stroke="var(--accent)" stroke-width="1.5" opacity="0.3"/>
-        </svg>
-      </div>
       <div class="spinner"></div>
-      <p>Loading Map Data</p>
-      <span class="loader-sub">Telangana Police Commissionerate</span>
+      <p>Polishing the Map...</p>
     </div>
   </div>
 
-  <!-- HEADER -->
   <header>
     <div class="hdr-emblem">
       <svg viewBox="0 0 40 40" width="36" height="36">
-        <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.3"/>
-        <circle cx="20" cy="20" r="12" fill="none" stroke="currentColor" stroke-width="1" opacity="0.15" stroke-dasharray="3 2"/>
-        <path d="M20 6 L20 14 M20 26 L20 34 M6 20 L14 20 M26 20 L34 20" stroke="currentColor" stroke-width="1.5" opacity="0.25"/>
+        <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2" opacity="0.6"/>
+        <path d="M20 6 L20 14 M20 26 L20 34 M6 20 L14 20 M26 20 L34 20" stroke="currentColor" stroke-width="1.5" opacity="0.4"/>
         <circle cx="20" cy="20" r="6" fill="none" stroke="var(--accent)" stroke-width="2"/>
-        <circle cx="20" cy="20" r="2.5" fill="var(--accent)"/>
+        <circle cx="20" cy="20" r="2" fill="var(--accent)"/>
       </svg>
     </div>
     <div class="hdr-txt">
-      <h1>Telangana Police <span class="hdr-accent">Commissionerate</span> Map</h1>
+      <h1>Telangana Police Commissionerate Map</h1>
       <p>Interactive jurisdiction boundaries &amp; officer directory</p>
     </div>
     <div class="hdr-right">
       <div class="filter-tabs">
-        <button class="ftab active" id="f-all">
-          <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="8" r="5"/></svg>
-          All
-        </button>
-        <button class="ftab" id="f-comm">
-          <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="10" height="10" rx="2"/></svg>
-          Commissionerates
-        </button>
-        <button class="ftab" id="f-dist">
-          <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><polygon points="8,2 14,14 2,14"/></svg>
-          Districts
-        </button>
+        <button class="ftab active" id="f-all" onclick="setFilter('all')">All</button>
+        <button class="ftab" id="f-comm" onclick="setFilter('comm')">Commissionerates</button>
+        <button class="ftab" id="f-dist" onclick="setFilter('dist')">Districts</button>
       </div>
       <div class="search-wrap">
-        <svg class="search-icon" viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6.5" cy="6.5" r="4.5"/><line x1="10" y1="10" x2="14" y2="14"/></svg>
-        <input type="text" id="searchbox" placeholder="Search stations, officers..." autocomplete="off" />
-        <kbd class="search-kbd">/</kbd>
+        <span class="search-icon">&#128269;</span>
+        <input type="text" id="searchbox" placeholder="Search PS / Officer…" autocomplete="off" />
         <div id="search-results"></div>
       </div>
       <button class="theme-toggle" id="theme-toggle" onclick="toggleTheme()" title="Toggle dark/light mode" aria-label="Toggle theme">
@@ -78,71 +58,44 @@
   <!-- MAIN -->
   <div class="main">
     <div id="map"></div>
-    <div id="showing-bar">
-      <span class="showing-dot"></span>
-      <span id="showing-label">Showing: <b>all layers</b></span>
-    </div>
+    <div id="showing-bar"><span id="showing-label">Showing: <b>all layers</b></span></div>
 
     <!-- SIDEBAR -->
     <aside class="sidebar" id="sidebar">
       <div class="sb-head">
-        <div class="sb-head-left">
-          <svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="var(--accent)" stroke-width="2"><rect x="3" y="3" width="14" height="14" rx="3"/><line x1="7" y1="8" x2="13" y2="8"/><line x1="7" y1="12" x2="11" y2="12"/></svg>
-          <h2>Command Structure</h2>
-        </div>
-        <button class="sb-toggle" onclick="toggleSidebar()" aria-label="Close sidebar">
-          <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="4" x2="12" y2="12"/><line x1="12" y1="4" x2="4" y2="12"/></svg>
-        </button>
+        <h2>Command Structure</h2>
+        <button class="sb-toggle" onclick="toggleSidebar()">&#10005;</button>
       </div>
       <div class="sb-body">
         <!-- Legend -->
         <section class="leg-sect">
-          <div class="leg-sect-title">
-            <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="12" height="12" rx="2"/></svg>
-            Commissionerates
-          </div>
+          <div class="leg-sect-title">Commissionerates</div>
           <div id="leg-comm-list"></div>
         </section>
         <!-- Special Departments -->
         <section class="spec-sect">
-          <div class="leg-sect-title">
-            <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><polygon points="8,1 10,6 15,7 11,11 12,16 8,13 4,16 5,11 1,7 6,6"/></svg>
-            Special Departments
-          </div>
+          <div class="leg-sect-title">Special Departments</div>
           <div id="spec-dept-list"></div>
         </section>
         <!-- Info Panel -->
         <section class="info-sect">
-          <div class="info-sect-title">
-            <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="8" r="6"/><line x1="8" y1="5" x2="8" y2="8"/><line x1="8" y1="11" x2="8" y2="11.5"/></svg>
-            Zone Details
-          </div>
+          <div class="info-sect-title">Zone Details</div>
           <div id="info-wrap">
-            <div id="info-ph">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="var(--accent)" stroke-width="1.5" opacity="0.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              <span>Click any zone on the map to explore officer details and jurisdiction info.</span>
-            </div>
+            <p id="info-ph">Hover or click any coloured zone on the map to see CP, DCPs, and zone officers.<br><br>Click legend items to zoom into a commissionerate.</p>
           </div>
         </section>
       </div>
     </aside>
 
     <!-- Sidebar reopen button -->
-    <button class="sb-float-btn" id="sb-float" onclick="toggleSidebar()">
-      <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><polyline points="10,4 6,8 10,12"/></svg>
-      Panel
-    </button>
+    <button class="sb-float-btn" id="sb-float" onclick="toggleSidebar()">&#9664; Panel</button>
   </div>
 
   <!-- STATUS BAR -->
   <footer class="sbar">
-    <div class="sbar-group">
-      <span class="sbar-stat"><span class="sbar-dot" style="background:var(--accent)"></span><b id="stat-comms">9</b> Commissionerates</span>
-      <span class="sbar-divider"></span>
-      <span class="sbar-stat"><span class="sbar-dot" style="background:var(--hyd)"></span><b id="stat-ps">322+</b> Police Stations</span>
-      <span class="sbar-divider"></span>
-      <span class="sbar-stat"><span class="sbar-dot" style="background:var(--cyber)"></span><b id="stat-spec">8</b> Special Departments</span>
-    </div>
+    <span><b>9</b> Commissionerates</span>
+    <span><b>322+</b> Police Stations</span>
+    <span><b>8</b> Special Departments</span>
     <span class="src-note">Source: Telangana State Police Official Data</span>
   </footer>
 
