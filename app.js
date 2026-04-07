@@ -49,47 +49,12 @@ App.DataManager = {
         App.state.policeData = police;
     },
 
-    norm(str) {
-        if (!str) return 'Unknown';
-        let n = str.trim().toLowerCase();
-        // Manual mappings for known data inconsistencies
-        if (n === 'malkajgiri' || n === 'rachakonda') return 'Rachakonda';
-        if (n === 'cyberabad') return 'Cyberabad';
-        if (n === 'hyderabad') return 'Hyderabad';
-        if (n === 'futurecity' || n === 'future city') return 'FutureCity';
-        if (n === 'warangal') return 'Warangal';
-        if (n === 'karimnagar') return 'Karimnagar';
-        if (n === 'khammam') return 'Khammam';
-        if (n === 'nizamabad') return 'Nizamabad';
-        if (n === 'ramagundam') return 'Ramagundam';
-        if (n === 'siddipet') return 'Siddipet';
-        
-        // Default to Proper Case if not a known commissionerate
-        return str.split('_').map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(' ');
-    },
-
     dispName(key) {
-        const normalized = this.norm(key);
-        return App.state.config.COMM_DISPLAY[normalized] || normalized;
+        return App.state.config.COMM_DISPLAY[key] || key;
     },
 
-    getColor(comm, district) {
-        const normalized = this.norm(comm);
-        if (App.state.config.COMM_COLORS[normalized]) {
-            return App.state.config.COMM_COLORS[normalized];
-        }
-        
-        // For Districts, use a hash based on the district name to ensure consistent but varied colors
-        if (district) {
-            let hash = 0;
-            for (let i = 0; i < district.length; i++) {
-                hash = district.charCodeAt(i) + ((hash << 5) - hash);
-            }
-            const h = Math.abs(hash) % 360;
-            return `hsl(${h}, 50%, 45%)`;
-        }
-        
-        return App.state.config.COMM_COLORS['Unknown'];
+    getColor(comm) {
+        return App.state.config.COMM_COLORS[comm] || App.state.config.COMM_COLORS['Unknown'];
     }
 };
 
@@ -138,49 +103,16 @@ App.MapManager = {
 
         this.updateTileLayer();
         this.addHomeControl();
-        this.addLocateControl();
+        // this.addLocateControl(); // Removed location button
         this.renderGeoData();
     },
 
     addLocateControl() {
-        const LocateControl = L.Control.extend({
-            options: { position: 'topleft' },
-            onAdd: () => {
-                const container = L.DomUtil.create('div', 'leaflet-bar leaflet-control locate-ctrl');
-                const btn = L.DomUtil.create('a', 'locate-btn', container);
-                btn.href = '#';
-                btn.title = 'Find My Nearest Police Station';
-                btn.innerHTML = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>';
-                L.DomEvent.on(btn, 'click', (e) => {
-                    L.DomEvent.preventDefault(e);
-                    this.locateUser();
-                });
-                return container;
-            }
-        });
-        this.map.addControl(new LocateControl());
+        // Location button removed
     },
 
     locateUser() {
-        if (!navigator.geolocation) {
-            alert('Geolocation is not supported by your browser');
-            return;
-        }
-
-        App.UI.showLoader();
-        navigator.geolocation.getCurrentPosition(
-            (pos) => {
-                const lat = pos.coords.latitude;
-                const lng = pos.coords.longitude;
-                this.findNearestPS(lat, lng);
-                App.UI.hideLoader();
-            },
-            (err) => {
-                console.error(err);
-                alert('Unable to retrieve your location');
-                App.UI.hideLoader();
-            }
-        );
+        // Location functionality removed
     },
 
     findNearestPS(lat, lng) {
@@ -277,21 +209,16 @@ App.MapManager = {
     },
 
     getStyle(f) {
-        const p = f.properties;
-        const color = p.color || App.DataManager.getColor(p.commissionerate, p.district);
-        const isComm = p.commissionerate !== 'District_PS' && p.commissionerate !== 'Unknown';
+        const c = f.properties.commissionerate;
+        const color = f.properties.color || App.DataManager.getColor(c);
+        const isComm = c !== 'District_PS' && c !== 'Unknown';
         const isDark = App.state.theme === 'dark';
-        
-        // Enhance visibility
-        let fillOp = isComm ? (isDark ? 0.35 : 0.25) : (isDark ? 0.2 : 0.15);
-        if (App.state.currentFilter === 'dist' && !isComm) fillOp = isDark ? 0.3 : 0.25;
-
         return {
             fillColor: color,
-            fillOpacity: fillOp,
+            fillOpacity: isComm ? (isDark ? 0.25 : 0.18) : (isDark ? 0.08 : 0.06),
             color: color,
-            weight: isComm ? 1.5 : 0.8,
-            opacity: isComm ? 1 : 0.6
+            weight: isComm ? 1.5 : 0.5,
+            opacity: isComm ? 0.9 : 0.4
         };
     },
 
@@ -302,8 +229,50 @@ App.MapManager = {
 
     onFeatureClick(e) {
         const props = e.target.feature.properties;
-        App.UI.buildInfoPanel(props.commissionerate);
+        const comm = props.commissionerate;
+
+        // Show commissioner popup
+        this.showCommissionerPopup(e.latlng, comm);
+
+        // Update sidebar info panel
+        App.UI.buildInfoPanel(comm);
+
+        // Zoom to bounds
         this.map.fitBounds(e.target.getBounds(), { padding: [40, 40], maxZoom: 13 });
+    },
+
+    showCommissionerPopup(latlng, comm) {
+        const info = App.state.config.OFFICERS[comm];
+        if (!info) return;
+
+        const color = App.DataManager.getColor(comm);
+        const commName = App.DataManager.dispName(comm);
+
+        const popupContent = `
+            <div style="font-family: Inter, sans-serif; max-width: 280px; line-height: 1.4;">
+                <div style="border-bottom: 2px solid ${color}; padding-bottom: 8px; margin-bottom: 8px;">
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <div style="width: 12px; height: 12px; border-radius: 50%; background: ${color};"></div>
+                        <div style="font-weight: 700; font-size: 14px; color: #1a2332;">${commName} Commissionerate</div>
+                    </div>
+                </div>
+                <div style="margin-bottom: 8px;">
+                    <div style="font-size: 12px; color: #6b7d92; margin-bottom: 2px;">Commissioner of Police</div>
+                    <div style="font-weight: 600; font-size: 13px; color: #1a2332;">${info.cp || '—'}</div>
+                </div>
+                <div style="font-size: 11px; color: #6b7d92;">
+                    Click for detailed officer information
+                </div>
+            </div>
+        `;
+
+        L.popup({
+            maxWidth: 300,
+            className: 'commissioner-popup'
+        })
+        .setLatLng(latlng)
+        .setContent(popupContent)
+        .openOn(this.map);
     },
 
     filterFeature(f) {
@@ -322,7 +291,7 @@ App.MapManager = {
         if (!this.geoLayer) return;
         const bounds = L.latLngBounds([]);
         this.geoLayer.eachLayer(l => {
-            if (l.feature && App.DataManager.norm(l.feature.properties.commissionerate) === App.DataManager.norm(name)) bounds.extend(l.getBounds());
+            if (l.feature && l.feature.properties.commissionerate === name) bounds.extend(l.getBounds());
         });
         if (bounds.isValid()) {
             this.map.fitBounds(bounds, { padding: [40, 40] });
@@ -344,17 +313,10 @@ App.UI = {
     },
 
     buildAnalyticsDashboard() {
-        const sbBody = document.querySelector('.sb-body');
-        if (!sbBody) return;
-        
-        // Remove existing if any
-        const existing = sbBody.querySelector('.analytics-row');
-        if (existing) existing.remove();
-
-        const comms = new Set(App.state.policeData.map(d => App.DataManager.norm(d.commissionerate)));
+        const container = document.getElementById('sidebar');
         const stats = {
             units: App.state.policeData.length,
-            comms: comms.size,
+            comms: Object.keys(App.state.config.OFFICERS).length - 1,
             districts: new Set(App.state.geoData.features.map(f => f.properties.district)).size
         };
 
@@ -374,28 +336,19 @@ App.UI = {
                 </div>
             </div>
         `;
-        sbBody.insertAdjacentHTML('afterbegin', html);
-
-        // Update footer stats
-        const elComms = document.getElementById('stat-comms');
-        const elPS = document.getElementById('stat-ps');
-        const elSpec = document.getElementById('stat-spec');
-        
-        if (elComms) elComms.textContent = stats.comms;
-        if (elPS) elPS.textContent = stats.units + '+';
-        if (elSpec) elSpec.textContent = Object.keys(App.state.config.OFFICERS.Special_Departments || {}).length;
+        const sbBody = document.querySelector('.sb-body');
+        if (sbBody) sbBody.insertAdjacentHTML('afterbegin', html);
     },
 
 
     buildHierarchicalSidebar() {
         const container = document.getElementById('leg-comm-list');
         if (!container) return;
-        container.innerHTML = ''; // Clear previous
 
-        // Group data with normalization
+        // Group data
         const hierarchy = {};
         App.state.policeData.forEach(item => {
-            const comm = App.DataManager.norm(item.commissionerate);
+            const comm = item.commissionerate.toUpperCase();
             const zone = item.zone || 'General';
             const division = item.division || 'General';
             const ps = item.police_station;
@@ -406,12 +359,16 @@ App.UI = {
             hierarchy[comm][zone][division].push(ps);
         });
 
-        const sortedComms = Object.keys(hierarchy).sort();
+        // Current Commissionerates in config
+        const commNames = Object.keys(App.state.config.OFFICERS).filter(k => k !== 'Special_Departments');
         
         let html = '<div class="hier-title">Organizational Structure</div>';
         
-        sortedComms.forEach(commKey => {
-            const data = hierarchy[commKey];
+        commNames.forEach(commKey => {
+            const mappedComm = commKey.toUpperCase();
+            const data = hierarchy[mappedComm];
+            if (!data) return;
+
             const color = App.DataManager.getColor(commKey);
             const dispName = App.DataManager.dispName(commKey);
 
@@ -424,19 +381,19 @@ App.UI = {
                     <div class="hier-zones">
             `;
 
-            Object.entries(data).sort().forEach(([zoneName, divisions]) => {
+            Object.entries(data).forEach(([zoneName, divisions]) => {
                 html += `
                     <details class="hier-zone">
                         <summary>${zoneName}</summary>
                         <div class="hier-divs">
                 `;
 
-                Object.entries(divisions).sort().forEach(([divName, stations]) => {
+                Object.entries(divisions).forEach(([divName, stations]) => {
                     html += `
                         <details class="hier-div">
                             <summary>${divName} (${stations.length} PS)</summary>
                             <div class="hier-ps-list">
-                                ${stations.sort().map(s => `<div class="hier-ps-item" onclick="App.UI.zoomToPS('${s}', '${commKey}')">${s}</div>`).join('')}
+                                ${stations.map(s => `<div class="hier-ps-item" onclick="App.UI.zoomToPS('${s}', '${commKey}')">${s}</div>`).join('')}
                             </div>
                         </details>
                     `;
@@ -455,7 +412,7 @@ App.UI = {
         if (!App.MapManager.geoLayer) return;
         let found = null;
         App.MapManager.geoLayer.eachLayer(l => {
-            if (l.feature && l.feature.properties.ps_name && l.feature.properties.ps_name.toLowerCase() === psName.toLowerCase()) found = l;
+            if (l.feature.properties.ps_name === psName) found = l;
         });
 
         if (found) {
@@ -509,11 +466,10 @@ App.UI = {
     },
 
     buildInfoPanel(comm) {
-        const normalized = App.DataManager.norm(comm);
-        const info = App.state.config.OFFICERS[normalized];
+        const info = App.state.config.OFFICERS[comm];
         if (!info) return;
-        const color = App.DataManager.getColor(normalized);
-        const ps = App.state.config.COMM_PS[normalized] || App.state.policeData.filter(d => App.DataManager.norm(d.commissionerate) === normalized).map(d => d.police_station) || [];
+        const color = App.DataManager.getColor(comm);
+        const ps = App.state.config.COMM_PS[comm] || [];
         const zones = info.zones || [];
 
         const zrows = zones.map(z => `
@@ -561,28 +517,27 @@ App.UI = {
         if (!container) return;
         container.innerHTML = '';
         
-        // Count PS per comm dynamically
-        const counts = {};
-        App.state.policeData.forEach(d => {
-            const c = App.DataManager.norm(d.commissionerate);
-            if (c === 'District_PS') return;
-            counts[c] = (counts[c] || 0) + 1;
-        });
+        const comms = [
+            ['Hyderabad', 60], ['Cyberabad', 36], ['Rachakonda', 42],
+            ['Warangal', 45], ['Karimnagar', 18], ['Khammam', 25],
+            ['Nizamabad', 31], ['Ramagundam', 40], ['Siddipet', 25]
+        ];
 
-        const sorted = Object.entries(counts).sort((a, b) => a[0].localeCompare(b[0]));
-
-        sorted.forEach(([name, cnt]) => {
+        comms.forEach(([name, cnt]) => {
             const color = App.DataManager.getColor(name);
             const div = document.createElement('div');
             div.className = 'leg-item';
-            div.innerHTML = `
-                <div class="leg-swatch" style="background:${color}"></div>
-                <span class="leg-label">${App.DataManager.dispName(name)}</span>
-                <span class="leg-cnt">${cnt} PS</span>
-            `;
+            div.innerHTML = `<div class="leg-swatch" style="background:${color}"></div><span class="leg-label">${App.DataManager.dispName(name)}</span><span class="leg-cnt">${cnt} PS</span>`;
             div.onclick = () => App.MapManager.zoomToComm(name);
             container.appendChild(div);
         });
+
+        // Future City special entry
+        const fc = document.createElement('div');
+        fc.className = 'leg-item';
+        fc.innerHTML = `<div class="leg-swatch" style="background:#f72585"></div><span class="leg-label">Future City</span><span class="leg-cnt">New</span>`;
+        fc.onclick = () => this.buildInfoPanel('FutureCity');
+        container.appendChild(fc);
     },
 
     buildSpecDepts() {
@@ -627,44 +582,34 @@ App.SearchEngine = {
     },
 
     buildIndex() {
-        const { OFFICERS } = App.state.config;
+        const { COMM_PS, OFFICERS } = App.state.config;
         this.index = [];
 
-        // Add Stations from dynamic policeData
-        App.state.policeData.forEach(item => {
-            const comm = App.DataManager.norm(item.commissionerate);
-            this.index.push({ 
-                type: 'ps', 
-                label: item.police_station, 
-                comm: comm, 
-                sub: `${App.DataManager.dispName(comm)} / ${item.division || 'General'}` 
+        // Add Stations
+        Object.entries(COMM_PS).forEach(([comm, stations]) => {
+            stations.forEach(ps => {
+                this.index.push({ type: 'ps', label: ps, comm: comm, sub: App.DataManager.dispName(comm) });
             });
         });
 
-        // Add Officers from config
-        Object.entries(OFFICERS).forEach(([commKey, info]) => {
-            const normComm = App.DataManager.norm(commKey);
-            const dispComm = App.DataManager.dispName(normComm);
-
-            if (commKey === 'Special_Departments') {
+        // Add Officers
+        Object.entries(OFFICERS).forEach(([comm, info]) => {
+            if (comm === 'Special_Departments') {
                 Object.entries(info).forEach(([dept, d]) => {
                     this.index.push({ type: 'dept', label: d.officer, comm: null, sub: dept });
                 });
-            } else {
-                if (info.cp) this.index.push({ type: 'officer', label: info.cp, comm: normComm, sub: `CP, ${dispComm}` });
-                if (info.zones) {
-                    info.zones.forEach(z => {
-                        this.index.push({ type: 'officer', label: z.officer, comm: normComm, sub: `${z.zone}, ${dispComm}` });
-                    });
-                }
+            } else if (info.zones) {
+                if (info.cp) this.index.push({ type: 'officer', label: info.cp, comm: comm, sub: 'CP, ' + App.DataManager.dispName(comm) });
+                info.zones.forEach(z => {
+                    this.index.push({ type: 'officer', label: z.officer, comm: comm, sub: z.zone + ', ' + App.DataManager.dispName(comm) });
+                });
             }
         });
 
         // Add Commissionerates
-        const uniqueComms = new Set(App.state.policeData.map(d => App.DataManager.norm(d.commissionerate)));
-        uniqueComms.forEach(comm => {
-            if (comm === 'District_PS') return;
-            this.index.push({ type: 'comm', label: App.DataManager.dispName(comm), comm: comm, sub: 'Commissionerate' });
+        Object.keys(OFFICERS).forEach(comm => {
+            if (comm === 'Special_Departments') return;
+            this.index.push({ type: 'comm', label: App.DataManager.dispName(comm) + ' Commissionerate', comm: comm, sub: '' });
         });
     },
 
@@ -707,15 +652,10 @@ App.SearchEngine = {
     },
 
     handleSelect(idx) {
-        const m = this._currentMatches[idx];
-        if (!m) return;
-
-        if (m.type === 'ps') {
-            App.UI.zoomToPS(m.label, m.comm);
-        } else if (m.comm) {
-            App.MapManager.zoomToComm(m.comm);
+        const match = this._currentMatches[idx];
+        if (match && match.comm) {
+            App.MapManager.zoomToComm(match.comm);
         }
-        
         document.getElementById('search-results').style.display = 'none';
         document.getElementById('searchbox').value = '';
     }
@@ -731,4 +671,3 @@ function toggleSidebar() { document.getElementById('sidebar').classList.toggle('
 // START APP
 // ────────────────────────────────────────────────────────────
 window.addEventListener('DOMContentLoaded', () => App.init());
-//

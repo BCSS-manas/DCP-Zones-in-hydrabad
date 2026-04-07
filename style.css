@@ -74,23 +74,23 @@ body {
 
 /* ── HEADER ── */
 header {
-  background:linear-gradient(135deg, #1a365d 0%, #2b77e6 60%, #60a5fa 90%);
-  border-bottom:2px solid #1e40af;
-  padding:.6rem 1.2rem;
-  display:flex;
-  align-items:center;
-  gap:.9rem;
-  z-index:1000;
-  flex-shrink:0;
-  box-shadow:0 4px 20px rgba(26, 54, 93, 0.3);
-  transition:background .3s ease, border-color .3s ease;
+  background: #001f5b;
+  border-bottom: 2px solid #003d82;
+  padding: .6rem 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+  z-index: 1000;
+  flex-shrink: 0;
+  box-shadow: 0 4px 20px rgba(0, 31, 91, 0.3);
+  transition: background .3s ease, border-color .3s ease;
 }
 
 .hdr-emblem {
   width:36px;
   height:36px;
   flex-shrink:0;
-  color:#60a5fa;
+  color: #60a5fa;
 }
 
 .hdr-txt h1 {
@@ -98,12 +98,12 @@ header {
   font-weight:800;
   line-height:1.2;
   letter-spacing:-0.01em;
-  color:#ffffff;
+  color: #ffffff;
 }
 
 .hdr-txt p {
   font-size:.65rem;
-  color:#e2e8f0;
+  color: #e2e8f0;
   font-weight:500;
 }
 
@@ -144,7 +144,7 @@ header {
 
 .ftab.active {
   background:#ffffff;
-  color:#1a365d;
+  color:#001f5b;
   box-shadow:0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -773,24 +773,135 @@ header {
 .leaflet-control-attribution a { color:var(--accent) !important }
 
 /* ── RESPONSIVE ── */
-@media (max-width:768px) {
-  header { padding:.5rem .8rem; gap:.5rem }
-  .hdr-txt h1 { font-size:.82rem }
-  .filter-tabs { display:none }
-  .search-wrap { display:none }
-  .sidebar {
-    position:absolute;
-    right:0; top:0; bottom:0;
-    z-index:999;
-    width:300px;
-    box-shadow:var(--shadow);
+/* Mobile First Approach */
+
+/* Tablet and up */
+@media (max-width: 768px) {
+  header {
+    padding: .5rem .8rem;
+    gap: .5rem;
+    position: relative;
   }
-  .sidebar.closed { width:0 }
+
+  .hdr-txt h1 { font-size: .82rem }
+  .hdr-txt p { font-size: .6rem }
+
+  .filter-tabs { display: none }
+  .search-wrap { display: none }
+
+  .sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    width: 300px;
+    box-shadow: var(--shadow);
+  }
+
+  .sidebar.closed { width: 0 }
+
+  #map {
+    height: 60vh;
+    min-height: 400px;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .sb-float-btn {
+    display: block !important;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
 }
 
-@media (max-width:480px) {
-  .sidebar { width:100% }
-  .hdr-emblem { display:none }
+/* Mobile */
+@media (max-width: 480px) {
+  header {
+    padding: .4rem .6rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .hdr-emblem { display: none }
+  .hdr-txt { flex: 1; margin: 0 .5rem }
+  .hdr-txt h1 { font-size: .75rem }
+  .hdr-txt p { display: none }
+
+  .hdr-right {
+    display: flex;
+    gap: .3rem;
+    order: 2;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: .3rem;
+  }
+
+  .sidebar { width: 100% }
+
+  #map {
+    height: 50vh;
+    min-height: 300px;
+  }
+
+  .sb-head { padding: .5rem .8rem }
+  .sb-head h2 { font-size: .75rem }
+
+  .leg-sect { padding: .6rem .8rem }
+  .leg-sect-title { font-size: .6rem }
+
+  .icard { padding: .6rem }
+  .icard h3 { font-size: .75rem }
+  .icard p { font-size: .65rem }
+
+  .sbar {
+    padding: .4rem .8rem;
+    font-size: .7rem;
+  }
+
+  /* Make buttons full width on mobile */
+  .ftab,
+  #searchbox,
+  .theme-toggle,
+  .hdr-sidebar-toggle {
+    width: 100%;
+    margin-bottom: .3rem;
+  }
+
+  .filter-tabs {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .search-wrap {
+    width: 100%;
+  }
+
+  #searchbox {
+    width: 100% !important;
+  }
+}
+
+/* ── COMMISSIONER POPUP ── */
+.commissioner-popup .leaflet-popup-content-wrapper {
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.commissioner-popup .leaflet-popup-content {
+  margin: 0;
+  border-radius: 12px;
+}
+
+.commissioner-popup .leaflet-popup-tip {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* ── SMOOTH TRANSITIONS ── */
