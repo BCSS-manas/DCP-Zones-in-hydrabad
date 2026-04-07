@@ -1,0 +1,15 @@
+{
+  "name": "police-zones-map",
+  "version": "1.0.0",
+  "description": "Telangana Police Commissionerate Map",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:data": "node build_data.js"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

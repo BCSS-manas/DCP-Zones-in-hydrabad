@@ -1,0 +1,3236 @@
+[
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Serilingampally Zone",
+    "division": "RC Puram",
+    "circle": "",
+    "police_station": "Chandanagar"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Serilingampally Zone",
+    "division": "RC Puram",
+    "circle": "",
+    "police_station": "RC Puram"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Serilingampally Zone",
+    "division": "RC Puram",
+    "circle": "",
+    "police_station": "Patancheru"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Serilingampally Zone",
+    "division": "RC Puram",
+    "circle": "",
+    "police_station": "Ameenpur"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Serilingampally Zone",
+    "division": "RC Puram",
+    "circle": "",
+    "police_station": "IDA Bollarum"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Serilingampally Zone",
+    "division": "Narsingi",
+    "circle": "",
+    "police_station": "Narsingi"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Serilingampally Zone",
+    "division": "Narsingi",
+    "circle": "",
+    "police_station": "Gachibowli"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Serilingampally Zone",
+    "division": "Narsingi",
+    "circle": "",
+    "police_station": "Kollur"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Kukatpally Zone",
+    "division": "KPHB",
+    "circle": "",
+    "police_station": "Miyapur"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Kukatpally Zone",
+    "division": "KPHB",
+    "circle": "",
+    "police_station": "KPHB"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Kukatpally Zone",
+    "division": "BALANAGAR",
+    "circle": "",
+    "police_station": "Balanagar"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Kukatpally Zone",
+    "division": "BALANAGAR",
+    "circle": "",
+    "police_station": "Kukatpally"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Kukatpally Zone",
+    "division": "BALANAGAR",
+    "circle": "",
+    "police_station": "Allapur"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Kukatpally Zone",
+    "division": "Madhapur",
+    "circle": "",
+    "police_station": "Madhapur"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Kukatpally Zone",
+    "division": "Madhapur",
+    "circle": "",
+    "police_station": "Raidurgam"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Quthbullapur Zone",
+    "division": "Medchal",
+    "circle": "",
+    "police_station": "Medchal"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Quthbullapur Zone",
+    "division": "Medchal",
+    "circle": "",
+    "police_station": "Dundigal"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Quthbullapur Zone",
+    "division": "Medchal",
+    "circle": "",
+    "police_station": "Pet Basheerabad"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Quthbullapur Zone",
+    "division": "Medchal",
+    "circle": "",
+    "police_station": "Genome Valley"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Quthbullapur Zone",
+    "division": "Quthbullapur",
+    "circle": "",
+    "police_station": "Bachupally"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Quthbullapur Zone",
+    "division": "Quthbullapur",
+    "circle": "",
+    "police_station": "Jagathgirigutta"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Quthbullapur Zone",
+    "division": "Quthbullapur",
+    "circle": "",
+    "police_station": "Jeedimetla"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "Quthbullapur Zone",
+    "division": "Quthbullapur",
+    "circle": "",
+    "police_station": "Suraram"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP WOMEN SAFETY",
+    "division": "ACP WOMEN SAFETY",
+    "circle": "",
+    "police_station": "WPS IT CORRIDOR"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP EOW",
+    "division": "ACP EOW",
+    "circle": "",
+    "police_station": "EOW"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP CYBER CRIME",
+    "division": "ACP CYBER CRIME",
+    "circle": "",
+    "police_station": "CYBER CRIME"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP Traffic-1",
+    "division": "ACP Madhapur Traffic",
+    "circle": "",
+    "police_station": "Gachibowli Traffic"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP Traffic-1",
+    "division": "ACP Madhapur Traffic",
+    "circle": "",
+    "police_station": "Narsingi Traffic"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP Traffic-1",
+    "division": "ACP Miyapur Traffic",
+    "circle": "",
+    "police_station": "Patacheru Traffic"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP Traffic-1",
+    "division": "ACP Miyapur Traffic",
+    "circle": "",
+    "police_station": "RC Puram Traffic"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP Traffic-1",
+    "division": "ACP Miyapur Traffic",
+    "circle": "",
+    "police_station": "Kollur Traffic"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP Traffic-2",
+    "division": "ACP Kukatpally Traffic",
+    "circle": "",
+    "police_station": "Kukatpally Traffic"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP Traffic-2",
+    "division": "ACP Kukatpally Traffic",
+    "circle": "",
+    "police_station": "KPHB Traffic"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP Traffic-2",
+    "division": "ACP Balanagar Traffic",
+    "circle": "",
+    "police_station": "Balanagar Traffic"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP Traffic-2",
+    "division": "ACP Jeedimetla Traffic",
+    "circle": "",
+    "police_station": "Jeedimetla Traffic"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP Traffic-2",
+    "division": "ACP Jeedimetla Traffic",
+    "circle": "",
+    "police_station": "Medchal Traffic"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP Traffic-2",
+    "division": "ACP Madhapur Traffic",
+    "circle": "",
+    "police_station": "Madhapur Traffic"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP Traffic-2",
+    "division": "ACP Madhapur Traffic",
+    "circle": "",
+    "police_station": "Raidurgam Traffic"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP Traffic-2",
+    "division": "ACP Miyapur Traffic",
+    "circle": "",
+    "police_station": "Miyapur Traffic"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP SOT",
+    "division": "SOT",
+    "circle": "",
+    "police_station": "SERILINGAMPALLY ZONE"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP SOT",
+    "division": "SOT",
+    "circle": "",
+    "police_station": "KUKATPALLY ZONE"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP SOT",
+    "division": "SOT",
+    "circle": "",
+    "police_station": "QUTHBULLAPUR ZONE"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP CRIMES",
+    "division": "ACP CRIMES",
+    "circle": "",
+    "police_station": "SERILINGAMPALLY ZONE"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP CRIMES",
+    "division": "ACP CRIMES",
+    "circle": "",
+    "police_station": "KUKATPALLY ZONE"
+  },
+  {
+    "commissionerate": "CYBERABAD",
+    "zone": "DCP CRIMES",
+    "division": "ACP CRIMES",
+    "circle": "",
+    "police_station": "QUTHBULLAPUR ZONE"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "MAHESHWARAM",
+    "division": "Maheshwaram",
+    "circle": "",
+    "police_station": "Maheshwaram"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "MAHESHWARAM",
+    "division": "Maheshwaram",
+    "circle": "",
+    "police_station": "Kandukur"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "MAHESHWARAM",
+    "division": "Ibrahimpatnam",
+    "circle": "",
+    "police_station": "Ibrahimpatnam"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "MAHESHWARAM",
+    "division": "Ibrahimpatnam",
+    "circle": "",
+    "police_station": "Manchal"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "MAHESHWARAM",
+    "division": "Ibrahimpatnam",
+    "circle": "",
+    "police_station": "Yacharam"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "MAHESHWARAM",
+    "division": "Ibrahimpatnam",
+    "circle": "",
+    "police_station": "Hyd. Green Pharma City"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "MAHESHWARAM",
+    "division": "Amangal",
+    "circle": "",
+    "police_station": "Amangal"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "MAHESHWARAM",
+    "division": "Amangal",
+    "circle": "",
+    "police_station": "Madgul"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "MAHESHWARAM",
+    "division": "Amangal",
+    "circle": "",
+    "police_station": "Thalakonda Pally"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "MAHESHWARAM",
+    "division": "Amangal",
+    "circle": "",
+    "police_station": "Kadthal"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "Shandnagar",
+    "division": "Shandnagar",
+    "circle": "",
+    "police_station": "Shandnagar"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "Shandnagar",
+    "division": "Shandnagar",
+    "circle": "",
+    "police_station": "Kondurg"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "Shandnagar",
+    "division": "Shandnagar",
+    "circle": "",
+    "police_station": "Choudarigudem"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "Shandnagar",
+    "division": "Kothuru",
+    "circle": "",
+    "police_station": "Nandigama"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "Shandnagar",
+    "division": "Kothuru",
+    "circle": "",
+    "police_station": "Kothuru"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "Shandnagar",
+    "division": "Kothuru",
+    "circle": "",
+    "police_station": "Keshampet"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "Chevella",
+    "division": "Chevella",
+    "circle": "",
+    "police_station": "Chevella"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "Chevella",
+    "division": "Chevella",
+    "circle": "",
+    "police_station": "Mokilla"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "Chevella",
+    "division": "Chevella",
+    "circle": "",
+    "police_station": "Shankar Pally"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "Chevella",
+    "division": "Moinabad",
+    "circle": "",
+    "police_station": "Moinabad"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "Chevella",
+    "division": "Moinabad",
+    "circle": "",
+    "police_station": "Shabad"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "Chevella",
+    "division": "Moinabad",
+    "circle": "",
+    "police_station": "Shamshabad/Pedda Shapur"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "Traffic",
+    "division": "Shandnagar",
+    "circle": "",
+    "police_station": "Shandnagar Traffic PS"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "Traffic",
+    "division": "Shandnagar",
+    "circle": "",
+    "police_station": "Chevella Traffic PS"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "Traffic",
+    "division": "Maheshwaram",
+    "circle": "",
+    "police_station": "Ibrahimpatnam Traffic PS"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "Traffic",
+    "division": "Maheshwaram",
+    "circle": "",
+    "police_station": "Maheshwaram Traffic PS"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "CRIMES",
+    "division": "Maheshwaram",
+    "circle": "",
+    "police_station": "CCS Maheshwaram"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "CRIMES",
+    "division": "Maheshwaram",
+    "circle": "",
+    "police_station": "CCS Chevella"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "CRIMES",
+    "division": "Maheshwaram",
+    "circle": "",
+    "police_station": "CCS Shadnagar"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "SOT",
+    "division": "Maheshwaram",
+    "circle": "",
+    "police_station": "SOT Maheshwaram"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "SOT",
+    "division": "Maheshwaram",
+    "circle": "",
+    "police_station": "SOT Chevella"
+  },
+  {
+    "commissionerate": "FUTURE CITY",
+    "zone": "SOT",
+    "division": "Maheshwaram",
+    "circle": "",
+    "police_station": "SOT Shadnagar"
+  },
+  {
+    "commissionerate": "",
+    "zone": "",
+    "division": "Addl.CP - SOUTH RANGE",
+    "circle": "",
+    "police_station": "Addl.CP - SOUTH RANGE"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "DCP Traffic-I",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "ACP Khairatabad Traffic"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "DCP Traffic-I",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "ACP Secunderabad Traffic"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "DCP Traffic-II",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "ACP Jubilee Hills Traffic"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "DCP Traffic-II",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "ACP Golconda Traffic"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "DCP Traffic-III",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "ACP Rajendranagar Traffic"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "DCP Traffic-III",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "ACP Chandrayangutta Traffic"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "DCP Traffic-III",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "ACP Charminar Traffic"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "DCP Traffic-III",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "ACP Shamshabad Traffic"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "DCP Traffic-III",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "CRIMES"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "DCP (DD)",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Addl.DCP EOW"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "DCP (DD)",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "ACP SIT"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "DCP Cyber Crime",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "ACP Cyber Crime"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "DCP Cyber Crime",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "WOMEN SAFETY WING"
+  },
+  {
+    "commissionerate": "Women Safety Wing",
+    "zone": "DCP Women Safety Wing",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "OTHER WINGS"
+  },
+  {
+    "commissionerate": "H-NEW",
+    "zone": "DCP H-NEW",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "SPECIAL BRANCH"
+  },
+  {
+    "commissionerate": "H-NEW",
+    "zone": "DCP H-NEW",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "TASKFORCE"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Charminar",
+    "circle": "",
+    "police_station": "Charminar"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Charminar",
+    "circle": "",
+    "police_station": "Hussainialam"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Charminar",
+    "circle": "",
+    "police_station": "Moghalpura"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Charminar",
+    "circle": "",
+    "police_station": "Shalibanda"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Malakpet",
+    "circle": "",
+    "police_station": "Malakpet"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Malakpet",
+    "circle": "",
+    "police_station": "Chaderghat"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Malakpet",
+    "circle": "",
+    "police_station": "Dabeerpura"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Mirchowk",
+    "circle": "",
+    "police_station": "Mirchowk"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Mirchowk",
+    "circle": "",
+    "police_station": "Bhavani Nagar"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Mirchowk",
+    "circle": "",
+    "police_station": "Rein Bazar"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Saidabad",
+    "circle": "",
+    "police_station": "Saidabad"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Saidabad",
+    "circle": "",
+    "police_station": "Madannapet"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Santosh Nagar",
+    "circle": "",
+    "police_station": "Santosh Nagar"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Santosh Nagar",
+    "circle": "",
+    "police_station": "IS Sadan"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Santosh Nagar",
+    "circle": "",
+    "police_station": "Chatrinaka"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Adibatla",
+    "circle": "",
+    "police_station": "Adibatla"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Adibatla",
+    "circle": "",
+    "police_station": "Balapur"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Adibatla",
+    "circle": "",
+    "police_station": "Meerpet"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "RGIA",
+    "circle": "",
+    "police_station": "RGIA"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "RGIA",
+    "circle": "",
+    "police_station": "Pahadi Shareef"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Asif Nagar",
+    "circle": "",
+    "police_station": "Asif Nagar"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Asif Nagar",
+    "circle": "",
+    "police_station": "Mehdipatnam"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Asif Nagar",
+    "circle": "",
+    "police_station": "Habeeb Nagar"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Asif Nagar",
+    "circle": "",
+    "police_station": "Masab Tank"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Goshamahal",
+    "circle": "",
+    "police_station": "Goshamahal"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Goshamahal",
+    "circle": "",
+    "police_station": "Begum Bazaar"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Goshamahal",
+    "circle": "",
+    "police_station": "Afzalgunj"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Kulsumpura",
+    "circle": "",
+    "police_station": "Kulsumpura"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Kulsumpura",
+    "circle": "",
+    "police_station": "Tappachabutra"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Kulsumpura",
+    "circle": "",
+    "police_station": "Gudimalkapur"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Kulsumpura",
+    "circle": "",
+    "police_station": "Mangalhat"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Tolichowki",
+    "circle": "",
+    "police_station": "Tolichowki"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Tolichowki",
+    "circle": "",
+    "police_station": "Golconda"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Tolichowki",
+    "circle": "",
+    "police_station": "Langar House"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Rajendra Nagar",
+    "circle": "",
+    "police_station": "Rajendra Nagar"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Rajendra Nagar",
+    "circle": "",
+    "police_station": "Attapur"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Chandrayangutta",
+    "circle": "",
+    "police_station": "Chandrayangutta"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Chandrayangutta",
+    "circle": "",
+    "police_station": "Bandlaguda"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Chandrayangutta",
+    "circle": "",
+    "police_station": "Kanchanbagh"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Chandrayangutta",
+    "circle": "",
+    "police_station": "Mailardevpally"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Falaknuma",
+    "circle": "",
+    "police_station": "Falaknuma"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Falaknuma",
+    "circle": "",
+    "police_station": "Kamatipura"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Falaknuma",
+    "circle": "",
+    "police_station": "Bahadurpura"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Addl.CP - SOUTH RANGE",
+    "division": "Falaknuma",
+    "circle": "",
+    "police_station": "Kalapathar"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Chikkadpally",
+    "circle": "",
+    "police_station": "Chikkadpally"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Chikkadpally",
+    "circle": "",
+    "police_station": "Musheerabad"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Chikkadpally",
+    "circle": "",
+    "police_station": "Kachiguda"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Chilkalguda",
+    "circle": "",
+    "police_station": "Chilkalguda"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Chilkalguda",
+    "circle": "",
+    "police_station": "Lalaguda"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Chilkalguda",
+    "circle": "",
+    "police_station": "Warasiguda"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Gandhinagar",
+    "circle": "",
+    "police_station": "Gandhinagar"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Gandhinagar",
+    "circle": "",
+    "police_station": "Domalguda"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Mahankali",
+    "circle": "",
+    "police_station": "Mahankali"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Mahankali",
+    "circle": "",
+    "police_station": "Ramgopalpet"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Osmania University",
+    "circle": "",
+    "police_station": "Osmania University"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Osmania University",
+    "circle": "",
+    "police_station": "Amberpet"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Osmania University",
+    "circle": "",
+    "police_station": "Nallakunta"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Jubilee Hills",
+    "circle": "",
+    "police_station": "Jubilee Hills"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Jubilee Hills",
+    "circle": "",
+    "police_station": "Film Nagar"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Banjara Hills",
+    "circle": "",
+    "police_station": "Banjara Hills"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Banjara Hills",
+    "circle": "",
+    "police_station": "Madhura Nagar"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "SR Nagar",
+    "circle": "",
+    "police_station": "SR Nagar"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "SR Nagar",
+    "circle": "",
+    "police_station": "Borabanda"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "SR Nagar",
+    "circle": "",
+    "police_station": "Sanath Nagar"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Abids",
+    "circle": "",
+    "police_station": "Abids"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Abids",
+    "circle": "",
+    "police_station": "Nampally"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Panjagutta",
+    "circle": "",
+    "police_station": "Panjagutta"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Panjagutta",
+    "circle": "",
+    "police_station": "Khairatabad"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Saifabad",
+    "circle": "",
+    "police_station": "Saifabad"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Saifabad",
+    "circle": "",
+    "police_station": "Lake"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Sultan Bazar"
+  },
+  {
+    "commissionerate": "HYDERABAD",
+    "zone": "Jt.CP - NORTH RANGE",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Narayanaguda"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Khairatabad Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Panjagutta Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Khairatabad Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Saifabad Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Khairatabad Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Abids Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Khairatabad Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Sultan Bazar Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Secunderabad Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Kachiguda Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Secunderabad Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Osmania University Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Secunderabad Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Chikkadpally Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Secunderabad Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Gandhi Nagar Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Secunderabad Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Mahankali Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Secunderabad Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Chilkalguda Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Jubilee Hills Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "SR Nagar Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Jubilee Hills Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Jubilee Hills Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Jubilee Hills Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Banjara Hills Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Golconda Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Tolichowki Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Golconda Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Asif Nagar Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Golconda Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Kulsumpura Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Golconda Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Goshamahal Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Rajendranagar Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Falaknuma Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Rajendranagar Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Rajendra Nagar Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Chandrayangutta Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Mirchowk Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Chandrayangutta Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Charminar Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Chandrayangutta Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Chatrinaka Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Chandrayangutta Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Malakpet Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Charminar Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Saidabad Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Charminar Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Santosh Nagar Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Charminar Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Chandrayangutta Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Shamshabad Traffic",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "RGI Airport Traffic PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "Addl.DCP EOW",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "CCS PS"
+  },
+  {
+    "commissionerate": "Jt.CP Traffic, Hyd",
+    "zone": "ACP Cyber Crime",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Cyber Crime PS"
+  },
+  {
+    "commissionerate": "Women Safety Wing",
+    "zone": "WOMEN SAFETY WING",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "SHE Team 1; Bharosa"
+  },
+  {
+    "commissionerate": "Women Safety Wing",
+    "zone": "WOMEN SAFETY WING",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "WPS Khairatabad Zone"
+  },
+  {
+    "commissionerate": "Women Safety Wing",
+    "zone": "WOMEN SAFETY WING",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "WPS Golconda Zone"
+  },
+  {
+    "commissionerate": "Women Safety Wing",
+    "zone": "WOMEN SAFETY WING",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "WPS Jubilee Zone"
+  },
+  {
+    "commissionerate": "Women Safety Wing",
+    "zone": "WOMEN SAFETY WING",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "WPS Charminar Zone"
+  },
+  {
+    "commissionerate": "Women Safety Wing",
+    "zone": "WOMEN SAFETY WING",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "WPS Secunderabad Zone"
+  },
+  {
+    "commissionerate": "Women Safety Wing",
+    "zone": "WOMEN SAFETY WING",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "WPS Rajendranagar Zone"
+  },
+  {
+    "commissionerate": "Women Safety Wing",
+    "zone": "WOMEN SAFETY WING",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Anti Human Trafficking Unit"
+  },
+  {
+    "commissionerate": "Women Safety Wing",
+    "zone": "WOMEN SAFETY WING",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Juvenile Bureau Unit"
+  },
+  {
+    "commissionerate": "H-NEW",
+    "zone": "OTHER WINGS",
+    "division": "Sultan Bazar",
+    "circle": "",
+    "police_station": "Narcotics Enforcement Wing (H-NEW)"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Karimnagar",
+    "division": "",
+    "circle": "",
+    "police_station": "Karimnagar - I"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Karimnagar",
+    "division": "",
+    "circle": "",
+    "police_station": "Karimnagar - II"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Karimnagar",
+    "division": "",
+    "circle": "",
+    "police_station": "Karimnagar - III"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Karimnagar",
+    "division": "",
+    "circle": "",
+    "police_station": "Karimnagar WPS"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Karimnagar",
+    "division": "",
+    "circle": "",
+    "police_station": "Karimnagar - R"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Karimnagar",
+    "division": "",
+    "circle": "",
+    "police_station": "Kothapalli"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Traffic",
+    "division": "",
+    "circle": "",
+    "police_station": "Karimnagar Traffic"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Crime",
+    "division": "",
+    "circle": "",
+    "police_station": "CCS, Karimnagar"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Karimnagar Rural",
+    "division": "",
+    "circle": "Thimmapur",
+    "police_station": "LMD"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Karimnagar Rural",
+    "division": "",
+    "circle": "Thimmapur",
+    "police_station": "Ganneruvaram"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Karimnagar Rural",
+    "division": "",
+    "circle": "Thimmapur",
+    "police_station": "Manakondur"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Karimnagar Rural",
+    "division": "",
+    "circle": "Thimmapur",
+    "police_station": "Chigurumamidi"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Karimnagar Rural",
+    "division": "",
+    "circle": "Choppadandi",
+    "police_station": "Choppadandi"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Karimnagar Rural",
+    "division": "",
+    "circle": "Choppadandi",
+    "police_station": "Ramadugu"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Karimnagar Rural",
+    "division": "",
+    "circle": "Choppadandi",
+    "police_station": "Gangadhara"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Huzurabad",
+    "division": "",
+    "circle": "Choppadandi",
+    "police_station": "Huzurabad"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Huzurabad",
+    "division": "",
+    "circle": "Choppadandi",
+    "police_station": "Jammikunta"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Huzurabad",
+    "division": "",
+    "circle": "Huzurabad Rural",
+    "police_station": "Saidapur"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Huzurabad",
+    "division": "",
+    "circle": "Huzurabad Rural",
+    "police_station": "Keshavapatnam"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Huzurabad",
+    "division": "",
+    "circle": "Jammikunta Rural",
+    "police_station": "Veenavanka"
+  },
+  {
+    "commissionerate": "Karimnagar",
+    "zone": "Huzurabad",
+    "division": "",
+    "circle": "Jammikunta Rural",
+    "police_station": "Ellandhakunta"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Khammam",
+    "division": "",
+    "circle": "Khammam Town",
+    "police_station": "Khammam I town"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Khammam",
+    "division": "",
+    "circle": "Khammam Town",
+    "police_station": "Khammam II town"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Khammam",
+    "division": "",
+    "circle": "Khammam Town",
+    "police_station": "Khammam III town"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Khammam",
+    "division": "",
+    "circle": "Khammam Town",
+    "police_station": "Khammam Traffic"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Khammam",
+    "division": "",
+    "circle": "Khammam Town",
+    "police_station": "Women PS"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Khammam",
+    "division": "",
+    "circle": "Khammam Town",
+    "police_station": "CCS, Khammam"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Khammam",
+    "division": "",
+    "circle": "Khammam Town",
+    "police_station": "Khanapur Haveli"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Khammam",
+    "division": "",
+    "circle": "Khammam Town",
+    "police_station": "PCR Kothagudem"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Khammam",
+    "division": "",
+    "circle": "Khammam Town",
+    "police_station": "Ragunathapalem"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Khammam",
+    "division": "",
+    "circle": "Khammam Rural",
+    "police_station": "Khammam Rural"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Khammam",
+    "division": "",
+    "circle": "Khammam Rural",
+    "police_station": "Mudigonda"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Khammam",
+    "division": "",
+    "circle": "Khammam Rural",
+    "police_station": "Kusumanchi"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Khammam",
+    "division": "",
+    "circle": "Khammam Rural",
+    "police_station": "Nelakondapalli"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Khammam",
+    "division": "",
+    "circle": "Khammam Rural",
+    "police_station": "Thirumalaipalem"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Khammam",
+    "division": "",
+    "circle": "Yellandu Rural",
+    "police_station": "Karepalli"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Khammam",
+    "division": "",
+    "circle": "Yellandu Rural",
+    "police_station": "Kamepalli"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Wyra",
+    "division": "",
+    "circle": "Wyra",
+    "police_station": "Wyra"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Wyra",
+    "division": "",
+    "circle": "Wyra",
+    "police_station": "Thallada"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Wyra",
+    "division": "",
+    "circle": "Wyra",
+    "police_station": "Konijerla"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Wyra",
+    "division": "",
+    "circle": "Wyra",
+    "police_station": "Chinthakani"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Wyra",
+    "division": "",
+    "circle": "Madhira",
+    "police_station": "Madhira Town"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Wyra",
+    "division": "",
+    "circle": "Madhira",
+    "police_station": "Madhira Rural"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Wyra",
+    "division": "",
+    "circle": "Madhira",
+    "police_station": "Bonakal"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Wyra",
+    "division": "",
+    "circle": "Madhira",
+    "police_station": "Yerrupalem"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Sathupalli",
+    "division": "",
+    "circle": "Madhira",
+    "police_station": "Sathupalli"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Sathupalli",
+    "division": "",
+    "circle": "Sathupalli Rual",
+    "police_station": "V.M.Bangera"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Sathupalli",
+    "division": "",
+    "circle": "Sathupalli Rual",
+    "police_station": "Kallur"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Sathupalli",
+    "division": "",
+    "circle": "Sathupalli Rual",
+    "police_station": "Vemsoor"
+  },
+  {
+    "commissionerate": "Khammam",
+    "zone": "Sathupalli",
+    "division": "",
+    "circle": "Sathupalli Rual",
+    "police_station": "Enkur"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "LB NAGAR",
+    "division": "LB NAGAR",
+    "circle": "",
+    "police_station": "CHAITANYAPURI"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "LB NAGAR",
+    "division": "LB NAGAR",
+    "circle": "",
+    "police_station": "LB NAGAR"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "LB NAGAR",
+    "division": "LB NAGAR",
+    "circle": "",
+    "police_station": "NAGOLE"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "LB NAGAR",
+    "division": "LB NAGAR",
+    "circle": "",
+    "police_station": "SAROORNAGAR"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "LB NAGAR",
+    "division": "VANASTHALIPURAM",
+    "circle": "",
+    "police_station": "ABDULLAPURMET"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "LB NAGAR",
+    "division": "VANASTHALIPURAM",
+    "circle": "",
+    "police_station": "HAYATHNAGAR"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "LB NAGAR",
+    "division": "VANASTHALIPURAM",
+    "circle": "",
+    "police_station": "VANASTALIPURAM"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "MALKAJGIRI",
+    "division": "BEGUMPET",
+    "circle": "",
+    "police_station": "BEGUMPET"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "MALKAJGIRI",
+    "division": "BEGUMPET",
+    "circle": "",
+    "police_station": "BOWENPALLY"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "MALKAJGIRI",
+    "division": "BEGUMPET",
+    "circle": "",
+    "police_station": "MAREDPALLY"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "MALKAJGIRI",
+    "division": "MALKAJGIRI",
+    "circle": "",
+    "police_station": "MALKAJGIRI"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "MALKAJGIRI",
+    "division": "MALKAJGIRI",
+    "circle": "",
+    "police_station": "GOPALPURAM"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "MALKAJGIRI",
+    "division": "MALKAJGIRI",
+    "circle": "",
+    "police_station": "MARKET"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "MALKAJGIRI",
+    "division": "MALKAJGIRI",
+    "circle": "",
+    "police_station": "NEREDMET"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "MALKAJGIRI",
+    "division": "JAWAHARNAGAR",
+    "circle": "",
+    "police_station": "KEESARA"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "MALKAJGIRI",
+    "division": "JAWAHARNAGAR",
+    "circle": "",
+    "police_station": "SHAMEERPET"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "MALKAJGIRI",
+    "division": "JAWAHARNAGAR",
+    "circle": "",
+    "police_station": "JAWAHARNAGAR"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "MALKAJGIRI",
+    "division": "ALWAL",
+    "circle": "",
+    "police_station": "TRIMULGERY"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "MALKAJGIRI",
+    "division": "ALWAL",
+    "circle": "",
+    "police_station": "ALWAL"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "MALKAJGIRI",
+    "division": "ALWAL",
+    "circle": "",
+    "police_station": "KARKHANA"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "MALKAJGIRI",
+    "division": "ALWAL",
+    "circle": "",
+    "police_station": "BOLLARAM"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "UPPAL",
+    "division": "MEDIPALLY",
+    "circle": "",
+    "police_station": "GHATKESAR"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "UPPAL",
+    "division": "MEDIPALLY",
+    "circle": "",
+    "police_station": "MEDIPALLY"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "UPPAL",
+    "division": "MEDIPALLY",
+    "circle": "",
+    "police_station": "CHERLAPALLY"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "UPPAL",
+    "division": "MEDIPALLY",
+    "circle": "",
+    "police_station": "POCHARAM ITC"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "UPPAL",
+    "division": "UPPAL",
+    "circle": "",
+    "police_station": "NACHARAM"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "UPPAL",
+    "division": "UPPAL",
+    "circle": "",
+    "police_station": "KUSHAIGUDA"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "UPPAL",
+    "division": "UPPAL",
+    "circle": "",
+    "police_station": "UPPAL"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP Women Safety Wing",
+    "division": "UPPAL",
+    "circle": "",
+    "police_station": "UPPAL WPS"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP Women Safety Wing",
+    "division": "UPPAL",
+    "circle": "",
+    "police_station": "SAROORNAGAR WPS"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP Women Safety Wing",
+    "division": "UPPAL",
+    "circle": "",
+    "police_station": "BEGUMPET WPS"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP Women Safety Wing",
+    "division": "UPPAL",
+    "circle": "",
+    "police_station": "SHE TEAM"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP Women Safety Wing",
+    "division": "UPPAL",
+    "circle": "",
+    "police_station": "ANTI HUMAN TRAFFICKING UNIT"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP Cyber Crime",
+    "division": "UPPAL",
+    "circle": "",
+    "police_station": "CYBER CRIME"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP SOT",
+    "division": "ACP SOT",
+    "circle": "",
+    "police_station": "SOT LB NAGAR"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP SOT",
+    "division": "ACP SOT",
+    "circle": "",
+    "police_station": "SOT UPPAL"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP SOT",
+    "division": "ACP SOT",
+    "circle": "",
+    "police_station": "SOT MALKAJGIRI"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP SOT",
+    "division": "ACP SOT",
+    "circle": "",
+    "police_station": "SOT CANTONMENT"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP CRIMES",
+    "division": "ACP SOT",
+    "circle": "",
+    "police_station": "CCS LB NAGAR"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP CRIMES",
+    "division": "ACP SOT",
+    "circle": "",
+    "police_station": "CCS MALKAJGIRI"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP CRIMES",
+    "division": "ACP SOT",
+    "circle": "",
+    "police_station": "CCS UPPAL"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP CRIMES",
+    "division": "ACP SOT",
+    "circle": "",
+    "police_station": "CCS CONTONMENT"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP TRAFFIC-I (UPPAL 1; LB NAGAR DIVISIONS)",
+    "division": "ACP LB NAGAR Traffic",
+    "circle": "",
+    "police_station": "LB NAGAR TRAFFIC"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP TRAFFIC-I (UPPAL 1; LB NAGAR DIVISIONS)",
+    "division": "ACP LB NAGAR Traffic",
+    "circle": "",
+    "police_station": "VANASTALIPURAM TRAFFIC"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP TRAFFIC-I (UPPAL 1; LB NAGAR DIVISIONS)",
+    "division": "ACP Uppal Traffic",
+    "circle": "",
+    "police_station": "UPPAL TRAFFIC"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP TRAFFIC-I (UPPAL 1; LB NAGAR DIVISIONS)",
+    "division": "ACP Uppal Traffic",
+    "circle": "",
+    "police_station": "KUSHAIGUDA TRAFFIC"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP TRAFFIC-I (UPPAL 1; LB NAGAR DIVISIONS)",
+    "division": "ACP Uppal Traffic",
+    "circle": "",
+    "police_station": "GHATKESAR TRAFFIC"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP TRAFFIC-II (MALKAJGIRI 1; TRIMULGHERRY DIVISIONS)",
+    "division": "ACP MALKAJGIRI Traffic",
+    "circle": "",
+    "police_station": "MALKAJGIRI TRAFFIC"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP TRAFFIC-II (MALKAJGIRI 1; TRIMULGHERRY DIVISIONS)",
+    "division": "ACP MALKAJGIRI Traffic",
+    "circle": "",
+    "police_station": "JAWAHARNAGAR TRAFFIC"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP TRAFFIC-II (MALKAJGIRI 1; TRIMULGHERRY DIVISIONS)",
+    "division": "ACP MALKAJGIRI Traffic",
+    "circle": "",
+    "police_station": "GOPALPURAM TRAFFIC"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP TRAFFIC-II (MALKAJGIRI 1; TRIMULGHERRY DIVISIONS)",
+    "division": "ACP MALKAJGIRI Traffic",
+    "circle": "",
+    "police_station": "eCHALLAN"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP TRAFFIC-II (MALKAJGIRI 1; TRIMULGHERRY DIVISIONS)",
+    "division": "ACP Trimulgherry Traffic",
+    "circle": "",
+    "police_station": "TRIMULGERY TRAFFIC"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP TRAFFIC-II (MALKAJGIRI 1; TRIMULGHERRY DIVISIONS)",
+    "division": "ACP Trimulgherry Traffic",
+    "circle": "",
+    "police_station": "BEGUMPET TRAFFIC"
+  },
+  {
+    "commissionerate": "MALKAJGIRI",
+    "zone": "DCP TRAFFIC-II (MALKAJGIRI 1; TRIMULGHERRY DIVISIONS)",
+    "division": "ACP Trimulgherry Traffic",
+    "circle": "",
+    "police_station": "ALWAL TRAFFIC"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad North",
+    "division": "",
+    "circle": "",
+    "police_station": "Nizamabad Town-I"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad North",
+    "division": "",
+    "circle": "",
+    "police_station": "Traffic PS"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad North",
+    "division": "",
+    "circle": "",
+    "police_station": "Women PS"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad North",
+    "division": "",
+    "circle": "Nizamabad Town",
+    "police_station": "Nizamabad Town-II"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad North",
+    "division": "",
+    "circle": "Nizamabad Town",
+    "police_station": "Nizamabad Town-III"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad North",
+    "division": "",
+    "circle": "Nizamabad Town",
+    "police_station": "Nizamabad Town-IV"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad North",
+    "division": "",
+    "circle": "Nizamabad North Rural",
+    "police_station": "Nizamabad Town-V"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad North",
+    "division": "",
+    "circle": "Nizamabad North Rural",
+    "police_station": "Makloor"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad North",
+    "division": "",
+    "circle": "Nizamabad North Rural",
+    "police_station": "Navipet"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad South",
+    "division": "",
+    "circle": "Nizamabad Sourth Rural",
+    "police_station": "Nizamabad Town-VI"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad South",
+    "division": "",
+    "circle": "Nizamabad Sourth Rural",
+    "police_station": "Nizamabad Rural"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad South",
+    "division": "",
+    "circle": "Nizamabad Sourth Rural",
+    "police_station": "Mugpal"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad South",
+    "division": "",
+    "circle": "Dichpally",
+    "police_station": "Dichpally"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad South",
+    "division": "",
+    "circle": "Dichpally",
+    "police_station": "Jakranpally"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad South",
+    "division": "",
+    "circle": "Dichpally",
+    "police_station": "Indalvai"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad South",
+    "division": "",
+    "circle": "Dharpally",
+    "police_station": "Dharpally"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Nizamabad South",
+    "division": "",
+    "circle": "Dharpally",
+    "police_station": "Sirkonda"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Armoor",
+    "division": "",
+    "circle": "Dharpally",
+    "police_station": "Armoor"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Armoor",
+    "division": "",
+    "circle": "Armoor Rural",
+    "police_station": "Nandipet"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Armoor",
+    "division": "",
+    "circle": "Armoor Rural",
+    "police_station": "Balkonda"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Armoor",
+    "division": "",
+    "circle": "Armoor Rural",
+    "police_station": "Velpoor"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Armoor",
+    "division": "",
+    "circle": "Armoor Rural",
+    "police_station": "Aloor"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Armoor",
+    "division": "",
+    "circle": "Armoor Rural",
+    "police_station": "Mendora"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Armoor",
+    "division": "",
+    "circle": "Bheemgal",
+    "police_station": "Bheemgal"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Armoor",
+    "division": "",
+    "circle": "Bheemgal",
+    "police_station": "Kammarpally"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Armoor",
+    "division": "",
+    "circle": "Bheemgal",
+    "police_station": "Morthad"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Bodhan",
+    "division": "",
+    "circle": "Bheemgal",
+    "police_station": "Bodhan"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Bodhan",
+    "division": "",
+    "circle": "Bodhan Rural",
+    "police_station": "Yedpally"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Bodhan",
+    "division": "",
+    "circle": "Bodhan Rural",
+    "police_station": "Renjal"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Bodhan",
+    "division": "",
+    "circle": "Bodhan Rural",
+    "police_station": "Bodhan Rural"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Bodhan",
+    "division": "",
+    "circle": "Rudrur",
+    "police_station": "Varni"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Bodhan",
+    "division": "",
+    "circle": "Rudrur",
+    "police_station": "Kotgir"
+  },
+  {
+    "commissionerate": "Nizamabad",
+    "zone": "Bodhan",
+    "division": "",
+    "circle": "Rudrur",
+    "police_station": "Rudrur"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Peddapalli",
+    "division": "",
+    "circle": "Peddapalli",
+    "police_station": "Peddapalli"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Peddapalli",
+    "division": "",
+    "circle": "Peddapalli",
+    "police_station": "Basanthnagar"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Peddapalli",
+    "division": "",
+    "circle": "Peddapalli",
+    "police_station": "Dharmaram"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Peddapalli",
+    "division": "",
+    "circle": "Sulthanabad",
+    "police_station": "Sulthanabad"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Peddapalli",
+    "division": "",
+    "circle": "Sulthanabad",
+    "police_station": "Pothkapalli"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Peddapalli",
+    "division": "",
+    "circle": "Sulthanabad",
+    "police_station": "Julapalli"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Peddapalli",
+    "division": "",
+    "circle": "Sulthanabad",
+    "police_station": "Kalva Srirampur"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Godavarikhani",
+    "division": "",
+    "circle": "Sulthanabad",
+    "police_station": "GDK I"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Godavarikhani",
+    "division": "",
+    "circle": "Sulthanabad",
+    "police_station": "Ramagundam Traffic"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Godavarikhani",
+    "division": "",
+    "circle": "GDK II",
+    "police_station": "GDK II"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Godavarikhani",
+    "division": "",
+    "circle": "GDK II",
+    "police_station": "Kamanpur"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Godavarikhani",
+    "division": "",
+    "circle": "Ramagundam",
+    "police_station": "Ramagundam"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Godavarikhani",
+    "division": "",
+    "circle": "Ramagundam",
+    "police_station": "NTPC"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Godavarikhani",
+    "division": "",
+    "circle": "Ramagundam",
+    "police_station": "Anthargoan"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Godavarikhani",
+    "division": "",
+    "circle": "Manthani",
+    "police_station": "Manthani"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Godavarikhani",
+    "division": "",
+    "circle": "Manthani",
+    "police_station": "Mutharam MTI"
+  },
+  {
+    "commissionerate": "Peddapalli",
+    "zone": "Godavarikhani",
+    "division": "",
+    "circle": "Manthani",
+    "police_station": "Ramagiri"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Mancherial",
+    "division": "",
+    "circle": "Manthani",
+    "police_station": "Mancherial I"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Mancherial",
+    "division": "",
+    "circle": "Manthani",
+    "police_station": "WPS Mancherial"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Mancherial",
+    "division": "",
+    "circle": "Mancherial Rural",
+    "police_station": "CCC Naspur"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Mancherial",
+    "division": "",
+    "circle": "Mancherial Rural",
+    "police_station": "Hajipur"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Mancherial",
+    "division": "",
+    "circle": "Laxettipet",
+    "police_station": "Laxettipuet"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Mancherial",
+    "division": "",
+    "circle": "Laxettipet",
+    "police_station": "Dandepalli"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Mancherial",
+    "division": "",
+    "circle": "Laxettipet",
+    "police_station": "Jannaram"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Jaipur",
+    "division": "",
+    "circle": "Laxettipet",
+    "police_station": "Jaipur"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Jaipur",
+    "division": "",
+    "circle": "Laxettipet",
+    "police_station": "Chennur"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Jaipur",
+    "division": "",
+    "circle": "Chennur Rural",
+    "police_station": "Neelvay"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Jaipur",
+    "division": "",
+    "circle": "Chennur Rural",
+    "police_station": "Kotapalli"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Jaipur",
+    "division": "",
+    "circle": "Srirampur",
+    "police_station": "Srirampur"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Jaipur",
+    "division": "",
+    "circle": "Srirampur",
+    "police_station": "Bheemaram"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Bellampalli",
+    "division": "",
+    "circle": "Srirampur",
+    "police_station": "Bellampalli"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Bellampalli",
+    "division": "",
+    "circle": "Bellampalli Rural",
+    "police_station": "Talla Gurjala"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Bellampalli",
+    "division": "",
+    "circle": "Bellampalli Rural",
+    "police_station": "Nennela"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Bellampalli",
+    "division": "",
+    "circle": "Bellampalli Rural",
+    "police_station": "Bellampalli II"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Bellampalli",
+    "division": "",
+    "circle": "Mandamarri",
+    "police_station": "Mandamarri"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Bellampalli",
+    "division": "",
+    "circle": "Mandamarri",
+    "police_station": "Ramakrishnapur"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Bellampalli",
+    "division": "",
+    "circle": "Mandamarri",
+    "police_station": "Devapur"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Bellampalli",
+    "division": "",
+    "circle": "Mandamarri",
+    "police_station": "Kasipet"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Bellampalli",
+    "division": "",
+    "circle": "Tandur",
+    "police_station": "Tandur"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Bellampalli",
+    "division": "",
+    "circle": "Tandur",
+    "police_station": "Madaram"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Bellampalli",
+    "division": "",
+    "circle": "Tandur",
+    "police_station": "Bheemini"
+  },
+  {
+    "commissionerate": "Mancherial",
+    "zone": "Bellampalli",
+    "division": "",
+    "circle": "Tandur",
+    "police_station": "Kannepalli"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Siddipet",
+    "division": "",
+    "circle": "",
+    "police_station": "Siddipet-I"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Siddipet",
+    "division": "",
+    "circle": "",
+    "police_station": "Siddipet-II"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Siddipet",
+    "division": "",
+    "circle": "",
+    "police_station": "Siddipet traffic"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Siddipet",
+    "division": "",
+    "circle": "Siddipet Rural",
+    "police_station": "Siddipet Rural"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Siddipet",
+    "division": "",
+    "circle": "Siddipet Rural",
+    "police_station": "Chinnakodur"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Siddipet",
+    "division": "",
+    "circle": "Siddipet Rural",
+    "police_station": "Rajgopalpet"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Siddipet",
+    "division": "",
+    "circle": "Siddipet Rural",
+    "police_station": "Bejjanki"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Siddipet",
+    "division": "",
+    "circle": "Dubbak",
+    "police_station": "Dubbak"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Siddipet",
+    "division": "",
+    "circle": "Dubbak",
+    "police_station": "Mirdoddi"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Siddipet",
+    "division": "",
+    "circle": "Dubbak",
+    "police_station": "Bhoompally"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Husnabad",
+    "division": "",
+    "circle": "Husnabad",
+    "police_station": "Husnabad"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Husnabad",
+    "division": "",
+    "circle": "Husnabad",
+    "police_station": "Akkannapet"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Husnabad",
+    "division": "",
+    "circle": "Husnabad",
+    "police_station": "Kohed"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Husnabad",
+    "division": "",
+    "circle": "Cheryal",
+    "police_station": "Cheryal"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Husnabad",
+    "division": "",
+    "circle": "Cheryal",
+    "police_station": "Maddur"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Husnabad",
+    "division": "",
+    "circle": "Cheryal",
+    "police_station": "Komaravelli"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Gajwel",
+    "division": "",
+    "circle": "Cheryal",
+    "police_station": "Gajwel"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Gajwel",
+    "division": "",
+    "circle": "Cheryal",
+    "police_station": "Gajwel Traffic"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Gajwel",
+    "division": "",
+    "circle": "Gajwel Rural",
+    "police_station": "Mulugu"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Gajwel",
+    "division": "",
+    "circle": "Gajwel Rural",
+    "police_station": "Gowraram"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Gajwel",
+    "division": "",
+    "circle": "Gajwel Rural",
+    "police_station": "Markuk"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Gajwel",
+    "division": "",
+    "circle": "Gajwel Rural",
+    "police_station": "Jagadevpur"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Gajwel",
+    "division": "",
+    "circle": "Thoguta",
+    "police_station": "Thoguta"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Gajwel",
+    "division": "",
+    "circle": "Thoguta",
+    "police_station": "Doulthabad"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Gajwel",
+    "division": "",
+    "circle": "Thoguta",
+    "police_station": "Kukunooprally"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Gajwel",
+    "division": "",
+    "circle": "Thoguta",
+    "police_station": "Raipole"
+  },
+  {
+    "commissionerate": "Siddipet",
+    "zone": "Gajwel",
+    "division": "",
+    "circle": "Thoguta",
+    "police_station": "Begumpet"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP Central Zone",
+    "division": "ACP Hanamkonda",
+    "circle": "",
+    "police_station": "Hanamkonda"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP Central Zone",
+    "division": "ACP Hanamkonda",
+    "circle": "",
+    "police_station": "Subedari"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP Central Zone",
+    "division": "ACP Hanamkonda",
+    "circle": "",
+    "police_station": "KUC"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP Central Zone",
+    "division": "ACP Kazipet",
+    "circle": "",
+    "police_station": "Kazipet"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP Central Zone",
+    "division": "ACP Kazipet",
+    "circle": "",
+    "police_station": "Dharmasagar"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP Central Zone",
+    "division": "ACP Kazipet",
+    "circle": "",
+    "police_station": "Madikonda"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP Central Zone",
+    "division": "ACP Kazipet",
+    "circle": "",
+    "police_station": "Hasanparthy"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP Central Zone",
+    "division": "ACP Warangal",
+    "circle": "",
+    "police_station": "Mills Colony"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP Central Zone",
+    "division": "ACP Warangal",
+    "circle": "",
+    "police_station": "Matwada"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP Central Zone",
+    "division": "ACP Warangal",
+    "circle": "",
+    "police_station": "Inthezargunj"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP Central Zone",
+    "division": "ACP Elkathurthy",
+    "circle": "Elkathurthy",
+    "police_station": "Elkathurthy"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP Central Zone",
+    "division": "ACP Elkathurthy",
+    "circle": "Elkathurthy",
+    "police_station": "Kamalapur"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP Central Zone",
+    "division": "ACP Elkathurthy",
+    "circle": "Bheemdevarapally",
+    "police_station": "Bheemdevarapally"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP Central Zone",
+    "division": "ACP Elkathurthy",
+    "circle": "Bheemdevarapally",
+    "police_station": "Vangara"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP Central Zone",
+    "division": "ACP Elkathurthy",
+    "circle": "Bheemdevarapally",
+    "police_station": "Velair"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP East Zone",
+    "division": "ACP Narsampet",
+    "circle": "Bheemdevarapally",
+    "police_station": "Narsmpet"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP East Zone",
+    "division": "ACP Narsampet",
+    "circle": "Duggondi",
+    "police_station": "Duggondi"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP East Zone",
+    "division": "ACP Narsampet",
+    "circle": "Duggondi",
+    "police_station": "Khanapur"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP East Zone",
+    "division": "ACP Narsampet",
+    "circle": "Duggondi",
+    "police_station": "Nallabelly"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP East Zone",
+    "division": "ACP Narsampet",
+    "circle": "Nekkonda",
+    "police_station": "Nakkonda"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP East Zone",
+    "division": "ACP Narsampet",
+    "circle": "Nekkonda",
+    "police_station": "Chennaraopet"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP East Zone",
+    "division": "ACP Parkal",
+    "circle": "Nekkonda",
+    "police_station": "Parkal"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP East Zone",
+    "division": "ACP Parkal",
+    "circle": "Nekkonda",
+    "police_station": "Atmakur"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP East Zone",
+    "division": "ACP Parkal",
+    "circle": "Shyampet",
+    "police_station": "Shyampet"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP East Zone",
+    "division": "ACP Parkal",
+    "circle": "Shyampet",
+    "police_station": "Damera"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP East Zone",
+    "division": "ACP Mamnoor",
+    "circle": "Shyampet",
+    "police_station": "Mamnoor"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP East Zone",
+    "division": "ACP Mamnoor",
+    "circle": "Shyampet",
+    "police_station": "Geesugonda"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP East Zone",
+    "division": "ACP Mamnoor",
+    "circle": "Parwathagiri",
+    "police_station": "Parwathagiri"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP East Zone",
+    "division": "ACP Mamnoor",
+    "circle": "Parwathagiri",
+    "police_station": "Sangem"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP East Zone",
+    "division": "ACP Mamnoor",
+    "circle": "Parwathagiri",
+    "police_station": "Inavole"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP West Zone",
+    "division": "ACP Jangaon",
+    "circle": "Parwathagiri",
+    "police_station": "Jangaon"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP West Zone",
+    "division": "ACP Jangaon",
+    "circle": "Narmetta",
+    "police_station": "Narmetta"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP West Zone",
+    "division": "ACP Jangaon",
+    "circle": "Narmetta",
+    "police_station": "Tharigoppula"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP West Zone",
+    "division": "ACP Jangaon",
+    "circle": "Narmetta",
+    "police_station": "Bachannapet"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP West Zone",
+    "division": "ACP Ghanpur (W)",
+    "circle": "Narmetta",
+    "police_station": "Ghanpur (W)"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP West Zone",
+    "division": "ACP Ghanpur (W)",
+    "circle": "Jangaon Rural",
+    "police_station": "Lingala Ghanpur"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP West Zone",
+    "division": "ACP Ghanpur (W)",
+    "circle": "Jangaon Rural",
+    "police_station": "Gundala"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP West Zone",
+    "division": "ACP Ghanpur (W)",
+    "circle": "Raghunathpally",
+    "police_station": "Raghunathpally"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP West Zone",
+    "division": "ACP Ghanpur (W)",
+    "circle": "Raghunathpally",
+    "police_station": "Chilpur"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP West Zone",
+    "division": "ACP Wardhannapet",
+    "circle": "Wardhannapet",
+    "police_station": "Wardhannapet"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP West Zone",
+    "division": "ACP Wardhannapet",
+    "circle": "Wardhannapet",
+    "police_station": "Rayaparthy"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP West Zone",
+    "division": "ACP Wardhannapet",
+    "circle": "Wardhannapet",
+    "police_station": "Zaffargadh"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP West Zone",
+    "division": "ACP Wardhannapet",
+    "circle": "Palakurthy",
+    "police_station": "Palakurthy"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP West Zone",
+    "division": "ACP Wardhannapet",
+    "circle": "Palakurthy",
+    "police_station": "Kodakandla"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "DCP West Zone",
+    "division": "ACP Wardhannapet",
+    "circle": "Palakurthy",
+    "police_station": "Devaruppula"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "ACP Crimes",
+    "division": "-",
+    "circle": "-",
+    "police_station": "Inspr WPS"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "ACP Crimes",
+    "division": "-",
+    "circle": "-",
+    "police_station": "Inspr WPS 2"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "Addl DCP CAR",
+    "division": "ACP CAR",
+    "circle": "-",
+    "police_station": "RI (Admin)"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "Addl DCP CAR",
+    "division": "ACP CAR",
+    "circle": "-",
+    "police_station": "RI (Security)"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "Addl DCP CAR",
+    "division": "ACP CAR",
+    "circle": "-",
+    "police_station": "RI (Welfare)"
+  },
+  {
+    "commissionerate": "Warangal",
+    "zone": "Addl DCP CAR",
+    "division": "ACP CAR",
+    "circle": "-",
+    "police_station": "RI (Home Guards)"
+  }
+]

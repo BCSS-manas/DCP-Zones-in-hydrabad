@@ -1,0 +1,154 @@
+{
+  "COMM_COLORS": {
+    "Hyderabad": "#e63946",
+    "Cyberabad": "#457b9d",
+    "Rachakonda": "#2a9d8f",
+    "Warangal": "#e76f51",
+    "Karimnagar": "#8338ec",
+    "Khammam": "#fb8500",
+    "Nizamabad": "#06d6a0",
+    "Ramagundam": "#118ab2",
+    "Siddipet": "#e9c46a",
+    "FutureCity": "#f72585",
+    "District_PS": "#3a3f5c",
+    "Unknown": "#555"
+  },
+  "OFFICERS": {
+    "Hyderabad": {
+      "cp": "Sri V.C. Sajjanar, IPS",
+      "color": "#e63946",
+      "zones": [
+        {"zone": "South Range (L&O)", "rank": "Addl. CP", "officer": "Sri Tafseer Iqubal, IPS", "covers": "Shamshabad, Golconda, Rajendranagar, Charminar zones"},
+        {"zone": "North Range (L&O)", "rank": "Jt. CP", "officer": "Smt. N. Swetha, IPS", "covers": "Jubilee Hills, Khairatabad, Secunderabad zones"},
+        {"zone": "Special Branch", "rank": "Jt. CP", "officer": "Sri S.M. Vijay Kumar, IPS", "covers": "Intelligence & Special Branch"},
+        {"zone": "Traffic (City)", "rank": "Jt. CP", "officer": "Sri D. Joel Davis, IPS", "covers": "All traffic zones"},
+        {"zone": "Crimes / DD", "rank": "Addl. CP", "officer": "Sri M. Srinivasulu, IPS", "covers": "Detective Department"},
+        {"zone": "Secunderabad Zone", "rank": "DCP", "officer": "Smt. Rakshitha K Murthy, IPS", "covers": "Secunderabad division"},
+        {"zone": "Charminar Zone", "rank": "DCP", "officer": "Sri Khare Kiran Prabhakar, IPS", "covers": "Charminar area"},
+        {"zone": "Khairatabad Zone", "rank": "DCP", "officer": "Smt. K. Shilpavalli, IPS", "covers": "Khairatabad division"},
+        {"zone": "Rajendranagar Zone", "rank": "DCP", "officer": "Sri Saibewar Srinivas, IPS", "covers": "Rajendranagar division"},
+        {"zone": "Golconda Zone", "rank": "DCP", "officer": "Sri G. Chandra Mohan, IPS", "covers": "Golconda division"},
+        {"zone": "Jubilee Hills Zone", "rank": "DCP", "officer": "Sri A. Ramana Reddy, IPS", "covers": "Jubilee Hills division"},
+        {"zone": "Shamshabad Zone", "rank": "DCP", "officer": "Sri B. Rajesh, IPS", "covers": "Shamshabad / Airport area"},
+        {"zone": "Traffic-I", "rank": "DCP", "officer": "Sri Avinash Kumar, IPS", "covers": "Khairatabad & Secunderabad zones"},
+        {"zone": "Traffic-II", "rank": "DCP", "officer": "Ms. Kajal, IPS", "covers": "Golconda & Jubilee Hills zones"},
+        {"zone": "Traffic-III", "rank": "DCP", "officer": "Sri Rahul Hegde B.K., IPS", "covers": "Charminar, Rajendranagar, Shamshabad zones"},
+        {"zone": "Task Force", "rank": "DCP", "officer": "Sri Gaikwad Vaibhav Raghunath, IPS", "covers": "Task Force operations"},
+        {"zone": "SM & IT", "rank": "DCP", "officer": "Sri Chennuri Rupesh, IPS", "covers": "Social Media & IT"},
+        {"zone": "Crimes / DD", "rank": "DCP", "officer": "Sri S. Chaitanya Kumar, IPS", "covers": "Detective Dept"}
+      ]
+    },
+    "Cyberabad": {
+      "cp": "Sri M. Ramesh, IPS",
+      "color": "#457b9d",
+      "zones": [
+        {"zone": "Administration", "rank": "DCP", "officer": "Smt. T. Annapurna, IPS", "covers": "Admin wing"},
+        {"zone": "Qutubullapur Zone", "rank": "DCP", "officer": "Sri N. Koti Reddy, IPS", "covers": "Qutubullapur area"},
+        {"zone": "Kukatpally Zone", "rank": "DCP", "officer": "Ms. Ritiraj, IPS", "covers": "Kukatpally division"},
+        {"zone": "Serilingampally Zone", "rank": "DCP", "officer": "Sri Ch. Srinivas, IPS", "covers": "Serilingampally / IT corridor"},
+        {"zone": "Traffic-II (Cyberabad)", "rank": "DCP", "officer": "Ms. Sheshadrini Reddy Suruconty, IPS", "covers": "Kukatpally & Qutubullapur L&O zones"}
+      ]
+    },
+    "Rachakonda": {
+      "cp": "Sri Avinash Mohanty, IPS",
+      "color": "#2a9d8f",
+      "zones": [
+        {"zone": "LB Nagar Zone", "rank": "DCP", "officer": "Ms. B. Anuradha, IPS", "covers": "LB Nagar division"},
+        {"zone": "Uppal Zone", "rank": "DCP", "officer": "Sri K. Suresh Kumar, IPS", "covers": "Uppal area"},
+        {"zone": "Malkajgiri Zone", "rank": "DCP", "officer": "Sri Ch. Sridhar, IPS", "covers": "Malkajgiri division"},
+        {"zone": "Crimes", "rank": "DCP", "officer": "Sri K. Gunasekhar, IPS", "covers": "Detective & Crimes"},
+        {"zone": "Traffic-I (Malkajgiri)", "rank": "DCP", "officer": "Sri Kankanala Rahul Reddy, IPS", "covers": "Malkajgiri L&O zone traffic"}
+      ]
+    },
+    "FutureCity": {
+      "cp": "Sri G. Sudheer Babu, IPS",
+      "color": "#f72585",
+      "zones": [
+        {"zone": "Admin & Traffic", "rank": "Jt. CP", "officer": "Smt. G. Chandana Deepti, IPS", "covers": "Admin & Traffic"},
+        {"zone": "Maheshwaram Zone", "rank": "DCP", "officer": "Sri K. Narayana Reddy, IPS", "covers": "Maheshwaram area"},
+        {"zone": "Chevella Zone", "rank": "DCP", "officer": "Sri Yogesh Goutam, IPS", "covers": "Chevella division"},
+        {"zone": "Shadnagar Zone", "rank": "DCP", "officer": "Sri Ch. Sirisha, IPS", "covers": "Shadnagar area"},
+        {"zone": "Traffic", "rank": "DCP", "officer": "Sri Shivam Upadhyaya, IPS", "covers": "Future City traffic"}
+      ]
+    },
+    "Warangal": {
+      "cp": "Sri Sunpreet Singh, IPS",
+      "color": "#e76f51",
+      "zones": [
+        {"zone": "Warangal East", "rank": "DCP", "officer": "Sri Ankit Kumar Sankhawar, IPS", "covers": "Warangal East division"},
+        {"zone": "Warangal (General)", "rank": "ASP", "officer": "Sri Nagrale Shubham Prakash, IPS", "covers": "Warangal general"},
+        {"zone": "Jangaon", "rank": "ASP", "officer": "Sri Pandere Chetan Nitin, IPS", "covers": "Jangaon area"}
+      ]
+    },
+    "Karimnagar": {
+      "cp": "Sri Gaush Alam, IPS",
+      "color": "#8338ec",
+      "zones": [
+        {"zone": "Karimnagar Commissionerate", "rank": "CP", "officer": "Sri Gaush Alam, IPS", "covers": "Full commissionerate"}
+      ]
+    },
+    "Khammam": {
+      "cp": "Sri Sunil Dutt, IPS",
+      "color": "#fb8500",
+      "zones": [
+        {"zone": "Addl. DCP (Admin)", "rank": "Addl. DCP", "officer": "Vacancy", "covers": "CPO Khammam"},
+        {"zone": "Addl. DCP (L&O)", "rank": "Addl. DCP", "officer": "Sri K.R.K. Prasad Rao", "covers": "Law & Order"},
+        {"zone": "Sathupally/Kalluru", "rank": "ACP", "officer": "Sri Yadav Vasundhara Farubi, IPS", "covers": "Sathupally sub-division"}
+      ]
+    },
+    "Nizamabad": {
+      "cp": "Sri Potharaju Sai Chaitanya, IPS",
+      "color": "#06d6a0",
+      "zones": [
+        {"zone": "Nizamabad Commissionerate", "rank": "CP", "officer": "Sri Potharaju Sai Chaitanya, IPS", "covers": "Full commissionerate"}
+      ]
+    },
+    "Ramagundam": {
+      "cp": "Sri Ambar Kishore Jha, IPS",
+      "color": "#118ab2",
+      "zones": [
+        {"zone": "Peddapally", "rank": "DCP", "officer": "Sri B. Ram Reddy, IPS", "covers": "Peddapally area"},
+        {"zone": "Mancherial", "rank": "DCP", "officer": "Sri A. Bhaskar, IPS", "covers": "Mancherial division"}
+      ]
+    },
+    "Siddipet": {
+      "cp": "Smt. Sadhana Rashmi Perumal, IPS",
+      "color": "#ffd166",
+      "zones": [
+        {"zone": "Addl. DCP (Admin)", "rank": "Addl. DCP", "officer": "Smt. Addl. DCP Admin, CPO Siddipet", "covers": "Admin wing"},
+        {"zone": "Addl. DCP (L&O)", "rank": "Addl. DCP", "officer": "Addl. DCP L&O, Siddipet", "covers": "Law & Order"},
+        {"zone": "Siddipet Division", "rank": "ACP", "officer": "ACP Siddipet Division", "covers": "Siddipet sub-division"},
+        {"zone": "Gajwel Division", "rank": "ACP", "officer": "ACP Gajwel Division", "covers": "Gajwel area"},
+        {"zone": "Husnabad Division", "rank": "ACP", "officer": "ACP Husnabad Division", "covers": "Husnabad area"}
+      ]
+    },
+    "Special_Departments": {
+      "Women Safety Wing": {"officer": "Ms. Charu Sinha, IPS (Addl.DGP FAC)", "role": "Women Safety, SHE Teams & Bharosa"},
+      "Intelligence / SB": {"officer": "Sri Vijay Kumar, IPS (Addl.DGP)", "role": "State Intelligence Bureau"},
+      "CID": {"officer": "Ms. Charu Sinha, IPS (Addl.DGP)", "role": "Criminal Investigation Dept."},
+      "Greyhounds / Octopus": {"officer": "Dr. Anil Kumar, IPS (Addl.DGP)", "role": "Counter-terrorism ops"},
+      "Cyber Security Bureau": {"officer": "Sri Harshvardhan, IPS (SP)", "role": "Cyber crime & security"},
+      "Anti-Narcotics Bureau": {"officer": "Sri R. Giridhar, IPS (SP)", "role": "Narcotics enforcement"},
+      "DGP (Co-ordination)": {"officer": "Sri B. Shivadhar Reddy, IPS (DGP)", "role": "Overall coordination"},
+      "Vigilance & Enforcement": {"officer": "Smt. Shikha Goel, IPS (DGP)", "role": "V&E and Cyber Security Bureau"}
+    }
+  },
+  "COMM_PS": {
+    "Warangal": ["Chennaraopet","Devaruppula","Duggondi","Ghanpur (Stn)","Khanapur","Kodakandla","Lingalaghanpur","Nallabelli","Narmetta","Narsampet","Nekkonda","Palakurthy","Parvathagiri","Ragunathpally","Raiparthy","Shayampet","Tharigoppula","Gundala","Jangoan","Bachannapet","Wardhannapet","Sangem","Atmakur","Chilpur","Damera","Dharmasagar","Elkathurthy","Geesugonda","Hanamkonda","Hasanparthy","Inavolu","Intezargunj","Kamlapaur","Kazipet","Kakatiya University","Madikonda","Mamnoor","Mattewada","Aj Mills Colony","Mulkanoor","Parkal","Subedari","Vangara","velair","Zaffergadh"],
+    "Siddipet": ["Akkannapet","Bejjanki","Cherial","Chinnakodur","Doultabad","Husnabad","Koheda","Komuravelli","Kuknoorpally","Maddur","Rajgopalpet","Siddipet I TN","Siddipet II TN","Siddipet_Rural","Thoguta","Jagdevpur","Markook","Mulug","Mirdoddi","Dubbak","Mirdoddi","Gowraram","Gajwel","Raipole","Begumpet"],
+    "Ramagundam": ["Anthergaon","Basanthnagar","Bellampalle I TN","Bellampalle II TN","Bheemaram","Bheemini","Chennur","Dandepalle","Dharmaram","GDK I TN","GDK II TN","Jaipur","Jannaram","Julapalli","Kalva Srirampur","Kamanpur","Kannepalli","Kotapalle","Luxettipet","Mancherial","Mandamarri","Manthani","Mutharam_Manthani","Naspur","Neelwai","Nennel","NTPC","Peddapalli","Pothkapalli","Ramagiri","Ramagundam","Ramakrisnapur","Srirampur","Sultanabad","Tallagurijala","Madharam","Tandur","Kasipet","Hajipur","Devapur"],
+    "Rachakonda": ["Saroornagar","Chaitanyapuri","LB Nagar","Hayatnagar","Abdullapurmet","Pochampally","Uppal","Nacharam","Medipally","Malkajgiri","Gatkesar","Valigonda","Addagudur","Neredimet","Mothkur","Kushaiguda","Bibinagar","Atmakur","Bhongir Town","Jawaharnagar","Keesara","Bhongir Rural","Motakondur","Bommalaramaram","Yadagirigutta","Alair","Thurkaplly","Rajapet","Balapur","Madgul","Yacharam","Kandkur","Maheswaram","Manchal","Narayanpur","Ibrahimpatnam","Adibatla","Pahadisharief","Meerpet","Choutuppal","Vanastalipuram","Ramannapet"],
+    "Nizamabad": ["Armoor","Balkonda","Bheemgal","Bodhan","Bodhan_Town","Dharpally","Dichpally","Indalwai","Jakranpally","Kammarpally","Kotagiri","Makloor","Mendora","Morthad","Mugpal","Mupkal","Nandipet","Navipet","Renjal","Rudrur","Sirikonda","Vailpur","Varni","Yedapally","Yergatla","Nizamabad 1TN","Nizamabad 2 TN","Nizamabad 3TN","Nizamabad 4TN","Nizamabad R","Nizamabad 6t"],
+    "Khammam": ["Bonakal","Enkoor","Kalluru","Kamepally","Karepalli","Khammam_2TN","Khammam_3TN","Khammam_I_TN","Konijerla","Kusumanchi","Madhira R","Madhira U","Nelakondapally","Sathupally","Thallada","V.M Bangera","Vemsoor","Wyra","Yerrupalem","Chintakani","Khammam_Rural","Khanapur_Haveli","Mudigonda","Raghunadhapalem","Tirumalayapalem"],
+    "Karimnagar": ["Chigurumamidi","Choppadandi","Ellandakunta","Gangadhara","Ganneruvaram","Huzurabad","Jammikunta","Karimnagar I TN","Karimnagar II TN","Karimnagar III TN","Karimnagar_Rural","Keshavapatnam","Kothapally","Manakondur","Ramadugu","Thimmapur","V_Saidapur","Veenavanka"],
+    "Hyderabad": ["Abid Road","Afzalgunj","Amberpet","Asifnagar","Bahadurpura","Banjara Hills","Begumbazar","Begumpeta","Bhavaninagar","Bollaram","Bowenpally","Chaderghat","Charminar","Chatrinaka","Chikkadpally","Chilkalguda","Dabeerpura","Falaknama","Gandhinagar","Golkonda","Gopalpuram","Habeebnagar","Humayunagar","Hussainialam","Jubilee Hills","Kachiguda","Kalapathar","Kamatipura","Karkhana","Kulsumpura","Lalaguda","Langer House","Madannapet","Mahankali","Malakpet","Manghalhat","Market","Marredpally","Mirchowk","Moghalpura","Mushirabad","Nallakunta","Nampally","Narayanguda","Osamania University","Panjagutta","Ramagopalpet","Rein Bazar","Saidabad","Santoshnagar","Shah Ali Banda","Saifabad","S.I.Gunj","S.R Nagar","Sultan Bazar","Tappachabutra","Tirumalghery","Tukaramgate","Chandrayangutta","Kanchanbagh"],
+    "Cyberabad": ["Alwal","Amangal","Bachupally","Balanagar","Chandanagar","Chevella","Choudarigudem","Dundigal","Gachibowli","Jagathgirigutta","Jeedimetla","Kadthal","Keshampet","Kondurg","Kothur","KPHB","Kukatpally","Madhapur","Mailaredevpally","Miyapur","Moinabad","Nandigam","Narsinghi","Pet Basheerabad","Raidurgam","Rajendranagar","Ramachandrapuram","RGIA","Sanathnagar","Shabad","Shadnagar","Shamirpet","Shamsabad","Shamsabad","Shankerpalli","Talakondapally","Medchel"]
+  },
+  "COMM_DISPLAY": {
+    "Rachakonda": "Malkajgiri (Rachakonda)",
+    "FutureCity": "Future City"
+  },
+  "TELANGANA_BOUNDS": [[15.8, 77.2], [19.95, 81.35]],
+  "MAP_CENTER": [17.5, 79.2],
+  "DEFAULT_ZOOM": 7
+}
