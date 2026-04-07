@@ -9,7 +9,7 @@ const App = {
         geoData: null,
         policeData: null, // Full hierarchy from data.json
         currentFilter: 'all',
-        theme: 'dark'
+        theme: 'light'
     },
 
     async init() {
@@ -105,6 +105,7 @@ App.MapManager = {
         this.addHomeControl();
         // this.addLocateControl(); // Removed location button
         this.renderGeoData();
+        this.initRevealPopupHandlers(); // Initialize popup handlers
     },
 
     addLocateControl() {
@@ -231,8 +232,8 @@ App.MapManager = {
         const props = e.target.feature.properties;
         const comm = props.commissionerate;
 
-        // Show commissioner popup
-        this.showCommissionerPopup(e.latlng, comm);
+        // Show commissioner popup with reveal effect
+        this.showCommissionerRevealPopup(comm, e.latlng);
 
         // Update sidebar info panel
         App.UI.buildInfoPanel(comm);
@@ -241,38 +242,119 @@ App.MapManager = {
         this.map.fitBounds(e.target.getBounds(), { padding: [40, 40], maxZoom: 13 });
     },
 
-    showCommissionerPopup(latlng, comm) {
+    showCommissionerRevealPopup(comm, latlng) {
         const info = App.state.config.OFFICERS[comm];
         if (!info) return;
 
         const color = App.DataManager.getColor(comm);
         const commName = App.DataManager.dispName(comm);
+        const zones = info.zones || [];
+
+        // Create detailed popup content
+        const zoneRows = zones.slice(0, 8).map(z => `
+            <div class="popup-zone-row">
+                <div class="popup-zone-rank" style="background: ${color}20; color: ${color}; border: 1px solid ${color}40;">
+                    ${z.rank}
+                </div>
+                <div class="popup-zone-info">
+                    <div class="popup-zone-officer">${z.officer}</div>
+                    <div class="popup-zone-area">${z.zone}</div>
+                    ${z.covers ? `<div class="popup-zone-coverage">${z.covers}</div>` : ''}
+                </div>
+            </div>
+        `).join('');
 
         const popupContent = `
-            <div style="font-family: Inter, sans-serif; max-width: 280px; line-height: 1.4;">
-                <div style="border-bottom: 2px solid ${color}; padding-bottom: 8px; margin-bottom: 8px;">
-                    <div style="display: flex; align-items: center; gap: 8px;">
-                        <div style="width: 12px; height: 12px; border-radius: 50%; background: ${color};"></div>
-                        <div style="font-weight: 700; font-size: 14px; color: #1a2332;">${commName} Commissionerate</div>
+            <div class="commissioner-reveal-popup">
+                <div class="popup-header" style="border-bottom: 3px solid ${color};">
+                    <div class="popup-header-icon">
+                        <div class="popup-dot" style="background: ${color}; box-shadow: 0 0 20px ${color}60;"></div>
                     </div>
+                    <div class="popup-header-content">
+                        <h3 class="popup-title">${commName}</h3>
+                        <p class="popup-subtitle">Commissionerate</p>
+                    </div>
+                    <button class="popup-close" onclick="App.MapManager.closeRevealPopup()">&times;</button>
                 </div>
-                <div style="margin-bottom: 8px;">
-                    <div style="font-size: 12px; color: #6b7d92; margin-bottom: 2px;">Commissioner of Police</div>
-                    <div style="font-weight: 600; font-size: 13px; color: #1a2332;">${info.cp || '—'}</div>
-                </div>
-                <div style="font-size: 11px; color: #6b7d92;">
-                    Click for detailed officer information
+
+                <div class="popup-body">
+                    <div class="popup-cp-section">
+                        <div class="popup-cp-label">Commissioner of Police</div>
+                        <div class="popup-cp-name">${info.cp || '—'}</div>
+                    </div>
+
+                    ${zones.length > 0 ? `
+                    <div class="popup-zones-section">
+                        <h4 class="popup-section-title">Key Officers & Zones</h4>
+                        <div class="popup-zones-list">
+                            ${zoneRows}
+                            ${zones.length > 8 ? `<div class="popup-more-zones">+${zones.length - 8} more officers</div>` : ''}
+                        </div>
+                    </div>
+                    ` : ''}
+
+                    <div class="popup-actions">
+                        <button class="popup-action-btn primary" onclick="App.MapManager.zoomToComm('${comm}')">
+                            <span class="btn-icon">📍</span>
+                            View on Map
+                        </button>
+                        <button class="popup-action-btn secondary" onclick="App.UI.buildInfoPanel('${comm}'); App.MapManager.closeRevealPopup()">
+                            <span class="btn-icon">📋</span>
+                            Full Details
+                        </button>
+                    </div>
                 </div>
             </div>
         `;
 
-        L.popup({
-            maxWidth: 300,
-            className: 'commissioner-popup'
-        })
-        .setLatLng(latlng)
-        .setContent(popupContent)
-        .openOn(this.map);
+        // Create or update the reveal popup container
+        let popupContainer = document.getElementById('reveal-popup-container');
+        if (!popupContainer) {
+            popupContainer = document.createElement('div');
+            popupContainer.id = 'reveal-popup-container';
+            popupContainer.className = 'reveal-popup-container';
+            document.body.appendChild(popupContainer);
+        }
+
+        popupContainer.innerHTML = popupContent;
+
+        // Trigger reveal animation
+        setTimeout(() => {
+            popupContainer.classList.add('active');
+        }, 10);
+
+        // Store reference for closing
+        this.activeRevealPopup = popupContainer;
+    },
+
+    closeRevealPopup() {
+        const popup = document.getElementById('reveal-popup-container');
+        if (popup) {
+            popup.classList.remove('active');
+            setTimeout(() => {
+                if (popup.parentNode) {
+                    popup.parentNode.removeChild(popup);
+                }
+            }, 400); // Match transition duration
+        }
+        this.activeRevealPopup = null;
+    },
+
+    // Add click outside handler for reveal popup
+    initRevealPopupHandlers() {
+        document.addEventListener('click', (e) => {
+            const popup = document.getElementById('reveal-popup-container');
+            if (popup && !popup.contains(e.target) && !e.target.closest('.leaflet-interactive')) {
+                this.closeRevealPopup();
+            }
+        });
+
+        // Close on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                this.closeRevealPopup();
+            }
+        });
     },
 
     filterFeature(f) {
